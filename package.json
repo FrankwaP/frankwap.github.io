@@ -1,0 +1,20 @@
+{
+  "name": "frankwap.github.io",
+  "version": "1.0.0",
+  "description": "## Name of the deposit",
+  "main": "index.js",
+  "scripts": {
+    "validate": "resumed validate fr.json",
+    "render": "resumed render fr.json --theme ./jsonresume-theme-frankwap-fr"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsonresume-theme-frankwap-fr": "file:jsonresume-theme-frankwap-fr",
+    "resumed": "^2.0.0"
+  },
+  "resolutions": {
+    "resumed": "2.0.0"
+  }
+}
