@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",  
   "basics": {
     "name": "François Plessier",
     "label": "Ingénieur et Data Scientist",
@@ -19,11 +20,13 @@
       "countryCode": "",
       "region": ""
     },
-    "profiles": [{
-      "network": "LinkedIn",
-      "username": "François Plessier",
-      "url": "https://www.linkedin.com/in/francois-plessier"
-    }]
+    "profiles": [
+        {
+            "network": "LinkedIn",
+            "username": "François Plessier",
+            "url": "https://www.linkedin.com/in/francois-plessier"
+        }        
+    ]
   },
   "work": [
     {
@@ -35,7 +38,7 @@
       "summary": "Mise en place de systèmes d'analyse d'images et de vidéos par Intelligence Artificielle, pour l'inspection d'infrastructures industrielles, le contrôle qualité ou le contrôle d'accès en zones restreintes.",
       "highlights": [
         "Entraînements de modèles de détection d'objets ou de segmentation, avec optimisation méta-paramétrique.",
-        "Développpement des outils logiciels pour l'utilisation des modèles d'IA.", 
+        "Développement des outils logiciels pour l'utilisation des modèles d'IA.", 
         "Travail de recherche et développement de solutions pour les problématiques client ou de méthodes pour augmenter les performances des modèles dans le cas d'une faible quantité de données ou de données bruitées.",
         "Administration de systèmes embarqués (Jetson Nvidia) et déploiement de modèles pour inférence.",
         "Développement d'outils logiciels pour la préparation des données et les entraînements.",
@@ -113,7 +116,7 @@
       "courses": ["développement (Python/R)", "machine learning", "data processing", "data vizualisation", "statistiques"]
     },
     {
-      "institution": "Université de Technoligies de Compiègne",
+      "institution": "Université de Technologies de Compiègne",
       "url": "",
       "area": "Master Recherche en Sciences et Technologies.",
       "studyType": "",
@@ -123,7 +126,7 @@
       "courses": []
     },
     {
-      "institution": "Université de Technoligies de Compiègne",
+      "institution": "Université de Technologies de Compiègne",
       "url": "",
       "area": "Diplôme d’Ingénieur en Systèmes Mécaniques.",
       "studyType": "",
@@ -133,7 +136,7 @@
       "courses": []
     },
     {
-      "institution": "Université de Picardie Jules Vernes.",
+      "institution": "Université de Picardie Jules Vernes",
       "url": "",
       "area": "DEUG MIAS (Math. et Info. Appliquées au Sciences).",
       "studyType": "",
@@ -147,7 +150,7 @@
   "publications": [],
   "skills": [
     {
-      "name": "Data Sience",
+      "name": "Data Science",
       "level": "",
       "keywords": [
         "scikit-learn",
