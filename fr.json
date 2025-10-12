@@ -1,253 +1,310 @@
 {
-  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",  
-  "basics": {
-    "name": "François Plessier",
-    "label": "Ingénieur et Data Scientist",
-    "birth": {
-      "date": "",
-      "place": "",
-      "gender": ""
+    "basics": {
+        "name": "François Plessier",
+        "label": "Ingénieur et Data Scientist",
+        "birth": {
+            "date": "9 Juillet 1981",
+            "place": "",
+            "gender": ""
+        },
+        "image": "images/photo.png",
+        "email": "francois.plessier@gmail.com",
+        "phone": "06.17.53.01.56",
+        "url": "",
+        "summary": "Initialement ingénieur-docteur en mécanique, j'ai complété mon profil en devenant data-scientist pour satisfaire mon goût du développement informatique, et travailler dans le domaine de l'intelligence artificielle, en constante évolution. Je suis stimulé par le travail en équipe et la compréhension de nouveaux concepts.",
+        "location": {
+            "address": "",
+            "postalCode": "33000",
+            "city": "Bordeaux",
+            "countryCode": "",
+            "region": ""
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "François Plessier",
+                "url": "https://www.linkedin.com/in/francois-plessier"
+            }
+        ]
     },
-    "image": "images/photo.png",
-    "email": "francois.plessier@gmail.com",
-    "phone": "06.17.53.01.56",
-    "url": "",
-    "summary": "Initialement ingénieur-docteur en mécanique, j'ai complété mon profil en devenant data-scientist pour satisfaire mon goût du développement informatique, et travailler dans le domaine de l'intelligence artificielle, en constante évolution. Je suis stimulé par le travail en équipe et la compréhension de nouveaux concepts.",
-    "location": {
-      "address": "",
-      "postalCode": "33000",
-      "city": "Bordeaux",
-      "countryCode": "",
-      "region": ""
-    },
-    "profiles": [
+    "work": [
         {
-            "network": "LinkedIn",
-            "username": "François Plessier",
-            "url": "https://www.linkedin.com/in/francois-plessier"
-        }        
+            "name": "Bordeaux Population Health",
+            "position": "Ingénieur recherche",
+            "url": "",
+            "startDate": "2024-09",
+            "endDate": "2025-12",
+            "summary": "Développement d'une méthode et d'un package R permettant d'enrichir les modèles à effets mixtes avec des modèles de Machine Learning.",
+            "highlights": [
+                "Développement d'un [paquet R](https://github.com/FrankwaP/mixedML) utilisant `reticulate` pour interfacer R et des composantes Python.",
+                "Implémentation de modèles de Reservoir Computing (librairie [reservoirpy](https://reservoirpy.readthedocs.io/)) pour la prédiction d'évènements de santé. ",
+                "Data Management d'un jeu de données de santé publique."
+            ]
+        },
+        {
+            "name": "ilee",
+            "position": "Data Scientist spécialisé en Computer Vision",
+            "url": "",
+            "startDate": "2019-12",
+            "endDate": "2023-11",
+            "summary": "Mise en place de systèmes d'analyse d'images et de vidéos par Intelligence Artificielle, pour l'inspection d'infrastructures industrielles, le contrôle qualité ou le contrôle d'accès en zones restreintes.",
+            "highlights": [
+                "Entraînements de modèles de détection d'objets ou de segmentation, avec optimisation méta-paramétrique.",
+                "Développement des outils logiciels pour l'utilisation des modèles d'IA.",
+                "Travail de recherche et développement de solutions pour les problématiques client ou de méthodes pour augmenter les performances des modèles dans le cas d'une faible quantité de données ou de données bruitées.",
+                "Administration de systèmes embarqués (Jetson Nvidia) et déploiement de modèles pour inférence.",
+                "Développement d'outils logiciels pour la préparation des données et les entraînements.",
+                "Encadrement de stages (mini-projets)."
+            ]
+        },
+        {
+            "name": "Data University Bordeaux",
+            "position": "Enseignant en Data Analysis et Data Science",
+            "url": "",
+            "startDate": "2020-01",
+            "endDate": "2020-04",
+            "summary": "Cours appliqués de développement en Python, web scraping, data processing et machine learning (28 heures au total).",
+            "highlights": [
+
+            ]
+        },
+        {
+            "name": "CATIE",
+            "position": "Stage de Data Scientist",
+            "url": "",
+            "startDate": "2019-03",
+            "endDate": "2019-08",
+            "summary": "État-de-l'art sur la reconnaissance vocale.",
+            "highlights": [
+                "Rédaction d'un rapport: présentation des solutions traditionnelles ou à réseaux de neurones.",
+                "Tests de librairies (Kaldi, DeepSpeech)."
+            ]
+        },
+        {
+            "name": "B.E.C. Sud-Ouest Développement et Ingéliance Technologies",
+            "position": "Ingénieur en calculs mécaniques",
+            "url": "",
+            "startDate": "2010-10",
+            "endDate": "2019-05",
+            "summary": "Études de validation du comportement mécanique (statique, thermique et dynamique) de composants structurels pour l'industrie aérospatiale et la Défense.",
+            "_highlights": [
+                "Simulations par éléments finis.",
+                "Traitement et analyse de données de calculs et d’essais.",
+                "Développement d’outils logiciels (Python, VBA)",
+                "Rédaction de notes de calcul."
+            ]
+        },
+        {
+            "name": "Université de Bordeaux 1",
+            "position": "Doctorant en Sciences Physiques pour l'Ingénieur",
+            "url": "",
+            "startDate": "2005-09",
+            "endDate": "2010-09",
+            "summary": "Études expérimentale et numérique de l'effet de l'hydrogène sur le comportement plastique des métaux.",
+            "_highlights": [
+                "Simulations par éléments finis.",
+                "Mise en place et réalisation d’essais mécaniques après chargements gazeux.",
+                "Synthèse bibliographique."
+            ]
+        },
+        {
+            "name": "Université de Bordeaux 1 et ENSAM Bordeaux",
+            "position": "Enseignant en sciences de l'ingénieur.",
+            "url": "",
+            "startDate": "2005-09",
+            "endDate": "2009-06",
+            "summary": "Cours de résistance des matériaux, mécanique du point et calculs par éléments finis.",
+            "_highlights": [
+
+            ]
+        }
+    ],
+    "volunteer": [
+
+    ],
+    "education": [
+        {
+            "institution": "Data University Bordeaux",
+            "url": "",
+            "area": "Formation de Data Analyst et Data Scientist.",
+            "studyType": "",
+            "startDate": "2019-03",
+            "endDate": "2019-09",
+            "score": "",
+            "courses": [
+                "développement (Python/R)",
+                "machine learning",
+                "data processing",
+                "data vizualisation",
+                "statistiques"
+            ]
+        },
+        {
+            "institution": "Université de Technologies de Compiègne",
+            "url": "",
+            "area": "Master Recherche en Sciences et Technologies.",
+            "studyType": "",
+            "startDate": "2004-09",
+            "endDate": "2005-06",
+            "score": "",
+            "courses": [
+
+            ]
+        },
+        {
+            "institution": "Université de Technologies de Compiègne",
+            "url": "",
+            "area": "Diplôme d’Ingénieur en Systèmes Mécaniques.",
+            "studyType": "",
+            "startDate": "2001-09",
+            "endDate": "2004-06",
+            "score": "",
+            "courses": [
+
+            ]
+        },
+        {
+            "institution": "Université de Picardie Jules Vernes",
+            "url": "",
+            "area": "DEUG MIAS (Math. et Info. Appliquées au Sciences).",
+            "studyType": "",
+            "startDate": "1999-09",
+            "endDate": "2001-06",
+            "score": "",
+            "courses": [
+
+            ]
+        }
+    ],
+    "awards": [
+
+    ],
+    "publications": [
+
+    ],
+    "skills": [
+        {
+            "name": "Data Science",
+            "level": "",
+            "keywords": [
+                "scikit-learn",
+                "pytorch",
+                "seaborn",
+                "numpy",
+                "pandas"
+            ]
+        },
+        {
+            "name": "Développement Python",
+            "level": "",
+            "keywords": [
+                "pytest",
+                "mypy",
+                "OpenCV",
+                "pillow",
+                "scikit-image",
+                "streamlit",
+                "beautiful soup",
+                "pip/conda"
+            ]
+        },
+        {
+            "name": "Développement R",
+            "level": "",
+            "keywords": [
+                "usethis",
+                "devtools",
+                "testthat",
+                "reticulate",
+                "Renv"
+            ]
+        },
+        {
+            "name": "Développement (autre)",
+            "level": "",
+            "keywords": [
+                "git",
+                "pre-commit",
+                "dvc",
+                "docker",
+                "bash",
+                "batch",
+                "Makefile"
+            ]
+        },
+        {
+            "name": "Informatiques",
+            "level": "",
+            "keywords": [
+                "sysadmin Linux",
+                "nvidia jetson",
+                "SQL",
+                "Excel+VBA"
+            ]
+        },
+        {
+            "name": "Complémentaires",
+            "level": "",
+            "keywords": [
+                "rédaction et présentation scientifiques",
+                "travail bibliographique",
+                "enseignement"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "Français",
+            "fluency": "C2: Langue maternelle"
+        },
+        {
+            "language": "Anglais",
+            "fluency": "C1: Avancé"
+        },
+        {
+            "language": "Espagnol",
+            "fluency": "B1: Intermédiaire"
+        },
+        {
+            "language": "Néerlandais",
+            "fluency": "A1: Débutant"
+        }
+    ],
+    "interests": [
+        {
+            "name": "",
+            "title": "Musculation au poids de corps",
+            "image": "images/rings.svg",
+            "keywords": [
+
+            ]
+        },
+        {
+            "name": "",
+            "title": "Mix / DJing",
+            "image": "images/mixxx.svg",
+            "keywords": [
+
+            ]
+        },
+        {
+            "name": "",
+            "title": "Geekeries",
+            "image": "images/coding.svg",
+            "keywords": [
+
+            ]
+        },
+        {
+            "name": "",
+            "title": "Jardinage",
+            "image": "images/gardening.svg",
+            "keywords": [
+
+            ]
+        }
+    ],
+    "references": [
+
     ]
-  },
-  "work": [
-    {
-      "name": "ilee",
-      "position": "Data Scientist spécialisé en Computer Vision",
-      "url": "",
-      "startDate": "2019-12",
-      "endDate": "2023-11",
-      "summary": "Mise en place de systèmes d'analyse d'images et de vidéos par Intelligence Artificielle, pour l'inspection d'infrastructures industrielles, le contrôle qualité ou le contrôle d'accès en zones restreintes.",
-      "highlights": [
-        "Entraînements de modèles de détection d'objets ou de segmentation, avec optimisation méta-paramétrique.",
-        "Développement des outils logiciels pour l'utilisation des modèles d'IA.", 
-        "Travail de recherche et développement de solutions pour les problématiques client ou de méthodes pour augmenter les performances des modèles dans le cas d'une faible quantité de données ou de données bruitées.",
-        "Administration de systèmes embarqués (Jetson Nvidia) et déploiement de modèles pour inférence.",
-        "Développement d'outils logiciels pour la préparation des données et les entraînements.",
-        "Encadrement de stages (mini-projets)."
-      ]
-    },
-    {
-      "name": "Data University Bordeaux",
-      "position": "Enseignant en Data Analysis et Data Science",
-      "url": "",
-      "startDate": "2020-01",
-      "endDate": "2020-04",
-      "summary": "Cours appliqués de développement en Python, web scraping, data processing et machine learning (28 heures au total).",
-      "highlights": []
-    },
-    {
-      "name": "CATIE",
-      "position": "Stage de Data Scientist",
-      "url": "",
-      "startDate": "2019-03",
-      "endDate": "2019-08",
-      "summary": "État-de-l'art sur la reconnaissance vocale.",
-      "highlights": [
-        "Rédaction d'un rapport: présentation des solutions traditionnelles ou à réseaux de neurones.",
-        "Tests de librairies (Kaldi, DeepSpeech)."
-      ]
-    },
-    {
-      "name": "B.E.C. Sud-Ouest Développement et Ingéliance Technologies",
-      "position": "Ingénieur en calculs mécaniques",
-      "url": "",
-      "startDate": "2010-10",
-      "endDate": "2019-05",
-      "summary": "Études de validation du comportement mécanique (statique, thermique et dynamique) de composants structurels pour l'industrie aérospatiale et la Défense.",
-      "_highlights": [
-        "Simulations par éléments finis.",
-        "Traitement et analyse de données de calculs et d’essais.",
-        "Développement d’outils logiciels (Python, VBA)",
-        "Rédaction de notes de calcul."
-      ]
-    },
-    {
-      "name": "Université de Bordeaux 1",
-      "position": "Doctorant en Sciences Physiques pour l'Ingénieur",
-      "url": "",
-      "startDate": "2005-09",
-      "endDate": "2010-09",
-      "summary": "Études expérimentale et numérique de l'effet de l'hydrogène sur le comportement plastique des métaux.",
-      "_highlights": [
-        "Simulations par éléments finis.",
-        "Mise en place et réalisation d’essais mécaniques après chargements gazeux.",
-        "Synthèse bibliographique."
-      ]
-    },
-    {
-      "name": "Université de Bordeaux 1 et ENSAM Bordeaux",
-      "position": "Enseignant en sciences de l'ingénieur.",
-      "url": "",
-      "startDate": "2005-09",
-      "endDate": "2009-06",
-      "summary": "Cours de résistance des matériaux, mécanique du point et calculs par éléments finis.",
-      "_highlights": []
-    }
-  ],
-  "volunteer": [],
-  "education": [
-    {
-      "institution": "Data University Bordeaux",
-      "url": "",
-      "area": "Formation de Data Analyst et Data Scientist.",
-      "studyType": "",
-      "startDate": "2019-03",
-      "endDate": "2019-09",
-      "score": "",
-      "courses": ["développement (Python/R)", "machine learning", "data processing", "data vizualisation", "statistiques"]
-    },
-    {
-      "institution": "Université de Technologies de Compiègne",
-      "url": "",
-      "area": "Master Recherche en Sciences et Technologies.",
-      "studyType": "",
-      "startDate": "2004-09",
-      "endDate": "2005-06",
-      "score": "",
-      "courses": []
-    },
-    {
-      "institution": "Université de Technologies de Compiègne",
-      "url": "",
-      "area": "Diplôme d’Ingénieur en Systèmes Mécaniques.",
-      "studyType": "",
-      "startDate": "2001-09",
-      "endDate": "2004-06",
-      "score": "",
-      "courses": []
-    },
-    {
-      "institution": "Université de Picardie Jules Vernes",
-      "url": "",
-      "area": "DEUG MIAS (Math. et Info. Appliquées au Sciences).",
-      "studyType": "",
-      "startDate": "1999-09",
-      "endDate": "2001-06",
-      "score": "",
-      "courses": []
-    }
-  ],
-  "awards": [],
-  "publications": [],
-  "skills": [
-    {
-      "name": "Data Science",
-      "level": "",
-      "keywords": [
-        "scikit-learn",
-        "pytorch",
-        "seaborn",
-        "numpy",
-        "pandas"
-      ]
-    },
-    {
-      "name": "Développement Python",
-      "level": "",
-      "keywords": [
-        "pytest",
-        "mypy",
-        "OpenCV",
-        "pillow",
-        "scikit-image",
-        "streamlit",
-        "beautiful soup"
-      ]
-    },
-    {
-      "name": "Développement (autre)",
-      "level": "",
-      "keywords": [
-        "git",
-        "dvc",
-        "docker",
-        "bash",
-        "batch",
-        "Makefile"
-      ]
-    },
-    {
-      "name": "Informatiques",
-      "level": "",
-      "keywords": [
-        "sysadmin Linux",
-        "nvidia jetson",
-        "SQL",
-        "Excel+VBA"
-      ]
-    },
-    {
-      "name": "Complémentaires",
-      "level": "",
-      "keywords": [
-        "rédaction et présentation scientifiques",
-        "travail bibliographique",
-        "enseignement"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "Français",
-      "fluency": "C2: Langue maternelle"
-    },
-    {
-      "language": "Anglais",
-      "fluency": "C1: Avancé"
-    },
-    {
-      "language": "Espagnol",
-      "fluency": "B1: Intermédiaire"
-    },
-    {
-      "language": "Néerlandais",
-      "fluency": "A1: Débutant"
-    }
-  ],
-  "interests": [
-    {
-      "name": "",
-      "title": "Musculation au poids de corps",
-      "image": "images/rings.svg",
-      "keywords": []
-    },
-    {
-      "name": "",
-      "title": "Mix / DJing",
-      "image": "images/mixxx.svg",
-      "keywords": []
-    },
-    {
-      "name": "",
-      "title": "Geekeries",
-      "image": "images/coding.svg",
-      "keywords": []
-    },
-    {
-      "name": "",
-      "title": "Jardinage",
-      "image": "images/gardening.svg",
-      "keywords": []
-    }
-  ],
-  "references": []
 }

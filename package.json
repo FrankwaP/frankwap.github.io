@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "validate": "resumed validate fr.json",
-    "render": "resumed render fr.json --theme ./jsonresume-theme-frankwap-fr"
+    "autoformat":"tmp=$(mktemp); json_reformat < fr.json > $tmp && mv $tmp fr.json ",
+    "render": "resumed render fr.json --theme jsonresume-theme-frankwap-fr --output index.html",
+    "hard-clean": "rm -rf node_modules package-lock.json; npm cache clean --force"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jsonresume-theme-frankwap-fr": "file:jsonresume-theme-frankwap-fr",
+    "jsonresume-theme-frankwap-fr": "git+https://github.com/FrankwaP/jsonresume-theme-frankwap-fr.git",
     "resumed": "^2.0.0"
   },
   "resolutions": {
