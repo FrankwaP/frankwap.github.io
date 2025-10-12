@@ -34,7 +34,7 @@
             "url": "",
             "startDate": "2024-09",
             "endDate": "2025-12",
-            "summary": "Développement d'une méthode et d'un package R permettant d'enrichir les modèles à effets mixtes avec des modèles de Machine Learning.",
+            "summary": "Développement d'une méthode et d'un package R permettant d'enrichir la modélisation des effets fixes des modèles mixtes grâce à des modèles de Machine Learning.",
             "highlights": [
                 "Développement d'un [paquet R](https://github.com/FrankwaP/mixedML) utilisant `reticulate` pour interfacer R et des composantes Python.",
                 "Implémentation de modèles de Reservoir Computing (librairie [reservoirpy](https://reservoirpy.readthedocs.io/)) pour la prédiction d'évènements de santé. ",
