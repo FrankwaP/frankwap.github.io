@@ -3,9 +3,9 @@
         "name": "François Plessier",
         "label": "Ingénieur et Data Scientist",
         "birth": {
-            "date": "9 Juillet 1981",
-            "place": "",
-            "gender": ""
+            "date": "1981-07-09",
+            "place": "Amiens",
+            "gender": "M"
         },
         "image": "images/photo.png",
         "email": "francois.plessier@gmail.com",
@@ -34,7 +34,7 @@
             "url": "",
             "startDate": "2024-09",
             "endDate": "2025-12",
-            "summary": "Développement d'une méthode et d'un package R permettant d'enrichir la modélisation des effets fixes des modèles mixtes grâce à des modèles de Machine Learning.",
+            "summary": "Mise en place d'une approche combinant modèles de machine learning et modèles de statistiques classiques (effets mixtes), pour la prédiction d'évènements de santé à partir de données longitudinales.",
             "highlights": [
                 "Développement d'un [paquet R](https://github.com/FrankwaP/mixedML) utilisant `reticulate` pour interfacer R et des composantes Python.",
                 "Implémentation de modèles de Reservoir Computing (librairie [reservoirpy](https://reservoirpy.readthedocs.io/)) pour la prédiction d'évènements de santé. ",
@@ -212,6 +212,7 @@
             "name": "Développement R",
             "level": "",
             "keywords": [
+                "quarto/Rmd",
                 "usethis",
                 "devtools",
                 "testthat",
