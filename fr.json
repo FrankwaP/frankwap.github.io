@@ -11,7 +11,7 @@
         "email": "francois.plessier@gmail.com",
         "phone": "06.17.53.01.56",
         "url": "",
-        "summary": "Initialement ingénieur-docteur en mécanique, j'ai complété mon profil en devenant data-scientist pour satisfaire mon goût du développement informatique, et travailler dans le domaine de l'intelligence artificielle, en constante évolution. Je suis stimulé par le travail en équipe et la compréhension de nouveaux concepts.",
+        "summary": "Initialement ingénieur-docteur en mécanique, j’ai complété mon profil en devenant data scientist pour satisfaire mon goût pour le développement informatique et travailler dans un domaine en constante évolution. Je suis stimulé par le travail en équipe et la compréhension de nouveaux concepts.",
         "location": {
             "address": "",
             "postalCode": "33000",
@@ -30,14 +30,14 @@
     "work": [
         {
             "name": "Bordeaux Population Health",
-            "position": "Ingénieur recherche",
+            "position": "Ingénieur de recherche",
             "url": "",
             "startDate": "2024-09",
             "endDate": "2025-12",
-            "summary": "Mise en place d'une approche combinant modèles de machine learning et modèles de statistiques classiques (effets mixtes), pour la prédiction d'évènements de santé à partir de données longitudinales.",
+            "summary": "Mise en place d'une approche combinant modèles de machine learning et modèles statistiques classiques (effets mixtes), pour la prédiction d'événements de santé à partir de données longitudinales.",
             "highlights": [
                 "Développement d'un [paquet R](https://github.com/FrankwaP/mixedML) utilisant `reticulate` pour interfacer R et des composantes Python.",
-                "Implémentation de modèles de Reservoir Computing (librairie [reservoirpy](https://reservoirpy.readthedocs.io/)) pour la prédiction d'évènements de santé. ",
+                "Implémentation de modèles de Reservoir Computing (librairie [reservoirpy](https://reservoirpy.readthedocs.io/)) pour la prédiction d'événements de santé. ",
                 "Data Management d'un jeu de données de santé publique."
             ]
         },
@@ -49,12 +49,12 @@
             "endDate": "2023-11",
             "summary": "Mise en place de systèmes d'analyse d'images et de vidéos par Intelligence Artificielle, pour l'inspection d'infrastructures industrielles, le contrôle qualité ou le contrôle d'accès en zones restreintes.",
             "highlights": [
-                "Entraînements de modèles de détection d'objets ou de segmentation, avec optimisation méta-paramétrique.",
+                "Entraînements de modèles de détection d'objets ou de segmentation, avec optimisation des hyperparamètres.",
                 "Développement des outils logiciels pour l'utilisation des modèles d'IA.",
                 "Travail de recherche et développement de solutions pour les problématiques client ou de méthodes pour augmenter les performances des modèles dans le cas d'une faible quantité de données ou de données bruitées.",
-                "Administration de systèmes embarqués (Jetson Nvidia) et déploiement de modèles pour inférence.",
+                "Administration de systèmes embarqués (Jetson Nvidia) et déploiement de modèles pour l'inférence.",
                 "Développement d'outils logiciels pour la préparation des données et les entraînements.",
-                "Encadrement de stages (mini-projets)."
+                "Encadrement de stagiaires."
             ]
         },
         {
@@ -135,12 +135,12 @@
                 "développement (Python/R)",
                 "machine learning",
                 "data processing",
-                "data vizualisation",
+                "data visualization",
                 "statistiques"
             ]
         },
         {
-            "institution": "Université de Technologies de Compiègne",
+            "institution": "Université de Technologie de Compiègne",
             "url": "",
             "area": "Master Recherche en Sciences et Technologies.",
             "studyType": "",
@@ -164,7 +164,7 @@
             ]
         },
         {
-            "institution": "Université de Picardie Jules Vernes",
+            "institution": "Université de Picardie Jules Verne",
             "url": "",
             "area": "DEUG MIAS (Math. et Info. Appliquées au Sciences).",
             "studyType": "",
@@ -200,7 +200,7 @@
             "keywords": [
                 "pytest",
                 "mypy",
-                "OpenCV",
+                "opencv",
                 "pillow",
                 "scikit-image",
                 "streamlit",
@@ -217,7 +217,7 @@
                 "devtools",
                 "testthat",
                 "reticulate",
-                "Renv"
+                "renv"
             ]
         },
         {
@@ -230,15 +230,15 @@
                 "docker",
                 "bash",
                 "batch",
-                "Makefile"
+                "makefile"
             ]
         },
         {
-            "name": "Informatiques",
+            "name": "Informatique (divers)",
             "level": "",
             "keywords": [
                 "sysadmin Linux",
-                "nvidia jetson",
+                "NVIDIA Jetson",
                 "SQL",
                 "Excel+VBA"
             ]
