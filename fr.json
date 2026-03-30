@@ -34,10 +34,10 @@
             "url": "",
             "startDate": "2024-09",
             "endDate": "2025-12",
-            "summary": "Mise en place d'une approche combinant modèles de machine learning et modèles statistiques classiques (effets mixtes), pour la prédiction d'événements de santé à partir de données longitudinales.",
+            "summary": "Mise en place d'une approche combinant modèles de machine learning et modèles statistiques classiques (effets mixtes), pour la prédiction d'évènements de santé à partir de données longitudinales.",
             "highlights": [
                 "Développement d'un [paquet R](https://github.com/FrankwaP/mixedML) utilisant `reticulate` pour interfacer R et des composantes Python.",
-                "Implémentation de modèles de Reservoir Computing (librairie [reservoirpy](https://reservoirpy.readthedocs.io/)) pour la prédiction d'événements de santé. ",
+                "Implémentation de modèles de Reservoir Computing (librairie [reservoirpy](https://reservoirpy.readthedocs.io/)) pour la prédiction d'évènements de santé. ",
                 "Data Management d'un jeu de données de santé publique."
             ]
         },
