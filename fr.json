@@ -36,7 +36,7 @@
             "endDate": "2025-12",
             "summary": "Mise en place d'une approche combinant modèles de machine learning et modèles statistiques classiques (effets mixtes), pour la prédiction d'évènements de santé à partir de données longitudinales.",
             "highlights": [
-                "Développement d'un [paquet R](https://github.com/FrankwaP/mixedML) utilisant `reticulate` pour interfacer R et des composantes Python.",
+                "Développement d'un [paquet R](https://github.com/FrankwaP/mixedML) utilisant `reticulate` pour interfacer R et Python.",
                 "Implémentation de modèles de Reservoir Computing (librairie [reservoirpy](https://reservoirpy.readthedocs.io/)) pour la prédiction d'évènements de santé. ",
                 "Data Management d'un jeu de données de santé publique."
             ]
@@ -74,7 +74,7 @@
             "url": "",
             "startDate": "2019-03",
             "endDate": "2019-08",
-            "summary": "État-de-l'art sur la reconnaissance vocale.",
+            "summary": "État-de-l'art sur la reconnaissance automatique de la parole.",
             "highlights": [
                 "Rédaction d'un rapport: présentation des solutions traditionnelles ou à réseaux de neurones.",
                 "Tests de librairies (Kaldi, DeepSpeech)."
