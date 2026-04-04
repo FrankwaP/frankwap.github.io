@@ -11,7 +11,7 @@
         "email": "francois.plessier@gmail.com",
         "phone": "06.17.53.01.56",
         "url": "",
-        "summary": "Ingénieur-docteur en mécanique devenu data scientist, mon profil interdisciplinaire relie la compréhension des problématiques industrielles, la rigueur du développement informatique et la conception de systèmes basés sur l'intelligence artificielle. Je recherche des environnements collaboratifs favorisant le travail en équipe. ",
+        "summary": "Ingénieur-docteur en mécanique devenu data scientist, mon profil interdisciplinaire relie la compréhension des problématiques industrielles, la rigueur du développement informatique et la conception de systèmes fondés sur l’intelligence artificielle. Je recherche des environnements collaboratifs favorisant le travail en équipe. ",
         "location": {
             "address": "",
             "postalCode": "33000",
@@ -26,7 +26,7 @@
                 "url": "https://www.linkedin.com/in/francois-plessier"
             },
             {
-                "network": "Github",
+                "network": "GitHub",
                 "username": "FrankwaP",
                 "url": "https://github.com/FrankwaP"
             }
@@ -39,10 +39,10 @@
             "url": "",
             "startDate": "2024-09",
             "endDate": "2025-12",
-            "summary": "Mise en place d'une approche combinant modèles de machine learning et de statistiques, pour la prédiction d'évènements de santé.",
+            "summary": "Mise en place d'une approche combinant modèles de machine learning et de statistiques pour la prédiction d'évènements de santé.",
             "highlights": [
                 "Développement en intégration continue d'un [paquet R](https://github.com/FrankwaP/mixedML) interfaçant R et des librairies Python avec `reticulate`.",
-                "Implémentation de modèles à réseau de neurones récurrents (reservoir computing) pour la prédiction à partir de données longitudinales. Contribution à la libraire [`reservoirpy`](https://github.com/reservoirpy/reservoirpy).",
+                "Implémentation de modèles à réseau de neurones récurrents (reservoir computing) pour la prédiction à partir de données longitudinales. Contribution à la librairie [`reservoirpy`](https://github.com/reservoirpy/reservoirpy).",
                 "Data management d'un jeu de données de santé publique."
             ]
         },
@@ -52,12 +52,12 @@
             "url": "",
             "startDate": "2019-12",
             "endDate": "2023-11",
-            "summary": "Mise en place de systèmes d'analyses d'images et de vidéos par intelligence artificielle.",
+            "summary": "Mise en place de systèmes d'analyse d'images et de vidéos par intelligence artificielle.",
             "highlights": [
                 "Développement d'un modèle `scikit-learn` pour l'analyse de texture d'enrobés bitumés: conception, récolte des données et prototypage, et mise en place du pipeline de data processing et d'entraînement.",
-                "Data processing et entraînements de modèles de détection ou segmentation d'objets sur `pytorch` pour l'inspection d'infrastructures industrielles.",
-                "Mise en place de système de contrôle d'accès (détection d'équipements de protection), déploiement sur systèmes embarqués (`docker`) pour prédiction en temps réel, et administration à distance (`sysadmin Linux`).",
-                "Travail bibliographique sur les problématiques client et les méthodes d'entraînements avec une quantité limitée de données (GAN, semi-supervision, data augmentation).",
+                "Data processing et entraînements de modèles de détection et segmentation d'objets sur `pytorch` pour l'inspection d'infrastructures industrielles.",
+                "Mise en place de systèmes de contrôle d'accès (détection d'équipements de protection), déploiement sur systèmes embarqués (`docker`) pour la prédiction en temps réel, et administration à distance (`sysadmin Linux`).",
+                "Travail bibliographique sur les problématiques clients et les méthodes d'entraînement avec une quantité limitée de données (GAN, semi-supervision, data augmentation).",
                 "Développement collaboratif en intégration continue, revues de code et gestion de tickets.",
                 "Encadrement de stagiaires."
             ]
@@ -79,7 +79,7 @@
             "url": "",
             "startDate": "2019-03",
             "endDate": "2019-08",
-            "summary": "État-de-l'art sur la reconnaissance automatique de la parole.",
+            "summary": "État de l'art sur la reconnaissance automatique de la parole.",
             "highlights": [
                 "Synthèse bibliographique: présentation des solutions traditionnelles ou à réseaux de neurones.",
                 "Tests de librairies (Kaldi, DeepSpeech)."
@@ -91,7 +91,7 @@
             "url": "",
             "startDate": "2010-10",
             "endDate": "2019-05",
-            "summary": "Études de validation du comportement mécanique (statique, thermique et dynamique) de composants structurels pour l'industrie aérospatiale et la Défense.",
+            "summary": "Études de validation mécanique (statique, thermique et dynamique) de composants structurels pour l'industrie aérospatiale et la Défense.",
             "highlights": [
                 "Simulations par éléments finis (maillage, calcul et post-traitements).",
                 "Traitement et analyse de données de calculs et d’essais.",
@@ -105,9 +105,9 @@
             "url": "",
             "startDate": "2005-09",
             "endDate": "2010-09",
-            "summary": "Études expérimentale et numérique de l'effet de l'hydrogène sur le comportement plastique des métaux.",
+            "summary": "Études expérimentales et numériques de l'effet de l'hydrogène sur le comportement plastique des métaux.",
             "highlights": [
-                "Simulations par éléments finis: génération, maillage et post-traitement automatisés de modèles synthétiques.",
+                "Simulations par éléments finis: génération, maillage et post-traitements automatisés de modèles synthétiques.",
                 "Préparation des échantillons: traitement thermique, polissage électro-chimique, chargement gazeux.",
                 "Réalisation d’essais mécaniques et analyse des échantillons d'essais par microscopie électronique à balayage et microscopie à force atomique.",
                 "Synthèse bibliographique."
@@ -132,7 +132,7 @@
         {
             "institution": "Data University Bordeaux",
             "url": "",
-            "area": "Formation de Data Analyst et Data Scientist.",
+            "area": "Formation de data analyst et data scientist.",
             "studyType": "",
             "startDate": "2019-03",
             "endDate": "2019-09",
@@ -148,7 +148,7 @@
         {
             "institution": "Université de Technologie de Compiègne",
             "url": "",
-            "area": "Master Recherche en Sciences et Technologies.",
+            "area": "Master recherche en Sciences et Technologies.",
             "studyType": "",
             "startDate": "2004-09",
             "endDate": "2005-06",
@@ -160,7 +160,7 @@
         {
             "institution": "Université de Technologies de Compiègne",
             "url": "",
-            "area": "Diplôme d’Ingénieur en Systèmes Mécaniques.",
+            "area": "Diplôme d’ingénieur des systèmes mécaniques.",
             "studyType": "",
             "startDate": "2001-09",
             "endDate": "2004-06",
@@ -172,7 +172,7 @@
         {
             "institution": "Université de Picardie Jules Verne",
             "url": "",
-            "area": "DEUG MIAS (Math. et Info. Appliquées au Sciences).",
+            "area": "DEUG MIAS",
             "studyType": "",
             "startDate": "1999-09",
             "endDate": "2001-06",
@@ -208,7 +208,7 @@
             "keywords": [
                 "tidyverse",
                 "reticulate",
-                "quarto/Rmd"
+                "quarto/RMarkdown"
             ]
         },
         {
@@ -218,7 +218,7 @@
                 "git",
                 "dvc",
                 "pre-commit",
-                "github actions",
+                "GitHub actions",
                 "pytest",
                 "testthat",
                 "makefile",
@@ -230,7 +230,7 @@
             "level": "",
             "keywords": [
                 "SQL",
-                "Excel+VBA",
+                "Excel/VBA",
                 "sysadmin Linux"
             ]
         },
@@ -238,8 +238,7 @@
             "name": "Compétences complémentaires",
             "level": "",
             "keywords": [
-                "rédaction scientifiques",
-                "présentations",
+                "rédaction et présentation scientifiques",
                 "enseignement"
             ]
         }
