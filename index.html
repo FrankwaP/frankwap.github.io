@@ -381,6 +381,7 @@ section .location {
   margin: 0.5em 0;
 }
 
+code,
 .keywords li,
 .courses li {
   display: inline-block;
@@ -394,6 +395,7 @@ section .location {
   white-space: nowrap;
 }
 
+code,
 .keywords li:hover,
 .courses li:hover {
   background: #dfeaf0;
@@ -812,8 +814,7 @@ section .location {
   
   <div id="resume">
     	<header id="header" class="clear">
-    		<img class="image" src="images/photo.png" alt="François Plessier" />
-    		<div class="middle">
+    		<div>
     			<h1 class="name">François Plessier</h1>
     			<h2 class="label">Ingénieur et Data Scientist</h2>
     		</div>
@@ -844,12 +845,20 @@ section .location {
     					</span>
     				</div>
     			</div>
+    			<div class="item">
+    				<div class="username">
+    					<span class="fab fa-github github social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://github.com/FrankwaP">FrankwaP</a>
+    					</span>
+    				</div>
+    			</div>
     		</div>
     	</header>
     
     	<section class="section">
     		<section class="main-summary">
-    			<div><p><p>Initialement ingénieur-docteur en mécanique, j’ai complété mon profil en devenant data scientist pour satisfaire mon goût pour le développement informatique et travailler dans un domaine en constante évolution. Je suis stimulé par le travail en équipe et la compréhension de nouveaux concepts.</p></p></div>
+    			<div><p><p>Ingénieur-docteur en mécanique devenu data scientist, mon profil interdisciplinaire relie la compréhension des problématiques industrielles, la rigueur du développement informatique et la conception de systèmes basés sur l'intelligence artificielle. Je recherche des environnements collaboratifs favorisant le travail en équipe.</p></p></div>
     		</section>
     	</section>
     
@@ -860,76 +869,60 @@ section .location {
     	<section id="skills">
     		<div class="item">
     			<h3 class="name">
-    				Data Science
+    				Python
     			</h3>
     			 			<ul class="keywords">
+    				<li>pandas</li>
     				<li>scikit-learn</li>
     				<li>pytorch</li>
-    				<li>seaborn</li>
-    				<li>numpy</li>
-    				<li>pandas</li>
-    			</ul>
-    		</div>
-    		<div class="item">
-    			<h3 class="name">
-    				Développement Python
-    			</h3>
-    			 			<ul class="keywords">
-    				<li>pytest</li>
-    				<li>mypy</li>
     				<li>opencv</li>
     				<li>pillow</li>
     				<li>scikit-image</li>
-    				<li>streamlit</li>
     				<li>beautiful soup</li>
-    				<li>pip/conda</li>
     			</ul>
     		</div>
     		<div class="item">
     			<h3 class="name">
-    				Développement R
+    				R
     			</h3>
     			 			<ul class="keywords">
-    				<li>quarto/Rmd</li>
-    				<li>usethis</li>
-    				<li>devtools</li>
-    				<li>testthat</li>
+    				<li>tidyverse</li>
     				<li>reticulate</li>
-    				<li>renv</li>
+    				<li>quarto/Rmd</li>
     			</ul>
     		</div>
     		<div class="item">
     			<h3 class="name">
-    				Développement (autre)
+    				Développement
     			</h3>
     			 			<ul class="keywords">
     				<li>git</li>
-    				<li>pre-commit</li>
     				<li>dvc</li>
-    				<li>docker</li>
-    				<li>bash</li>
-    				<li>batch</li>
+    				<li>pre-commit</li>
+    				<li>github actions</li>
+    				<li>pytest</li>
+    				<li>testthat</li>
     				<li>makefile</li>
+    				<li>docker</li>
     			</ul>
     		</div>
     		<div class="item">
     			<h3 class="name">
-    				Informatique (divers)
+    				Outils data et système
     			</h3>
     			 			<ul class="keywords">
-    				<li>sysadmin Linux</li>
-    				<li>Nvidia Jetson</li>
     				<li>SQL</li>
     				<li>Excel+VBA</li>
+    				<li>sysadmin Linux</li>
     			</ul>
     		</div>
     		<div class="item">
     			<h3 class="name">
-    				Complémentaires
+    				Compétences complémentaires
     			</h3>
     			 			<ul class="keywords">
-    				<li>rédaction et présentation scientifiques</li>
-    				<li>travail bibliographique</li>
+    				<li>rédaction scientifiques</li>
+    				<li>présentations</li>
     				<li>enseignement</li>
     			</ul>
     		</div>
@@ -954,11 +947,11 @@ section .location {
             </header>
     
            <div class="item" id="work-item">
-            <div class="summary"><p><p>Mise en place d'une approche combinant modèles de machine learning et modèles statistiques classiques (effets mixtes), pour la prédiction d'évènements de santé à partir de données longitudinales.</p></p></div>
+            <div class="summary"><p><p>Mise en place d'une approche combinant modèles de machine learning et de statistiques, pour la prédiction d'évènements de santé.</p></p></div>
             <ul class="highlights">
-              <li><p><p>Développement d'un <a href="https://github.com/FrankwaP/mixedML">paquet R</a> utilisant <code>reticulate</code> pour interfacer R et Python.</p></p></li>
-              <li><p><p>Implémentation de modèles de Reservoir Computing (librairie <a href="https://reservoirpy.readthedocs.io/">reservoirpy</a>) pour la prédiction d'évènements de santé.</p></p></li>
-              <li><p><p>Data Management d'un jeu de données de santé publique.</p></p></li>
+              <li><p><p>Développement en intégration continue d'un <a href="https://github.com/FrankwaP/mixedML">paquet R</a> interfaçant R et des librairies Python avec <code>reticulate</code>.</p></p></li>
+              <li><p><p>Implémentation de modèles à réseau de neurones récurrents (reservoir computing) pour la prédiction à partir de données longitudinales. Contribution à la libraire <a href="https://github.com/reservoirpy/reservoirpy"><code>reservoirpy</code></a>.</p></p></li>
+              <li><p><p>Data management d'un jeu de données de santé publique.</p></p></li>
             </ul>
           </div>
         </section>
@@ -975,13 +968,13 @@ section .location {
             </header>
     
            <div class="item" id="work-item">
-            <div class="summary"><p><p>Mise en place de systèmes d'analyse d'images et de vidéos par Intelligence Artificielle, pour l'inspection d'infrastructures industrielles, le contrôle qualité ou le contrôle d'accès en zones restreintes.</p></p></div>
+            <div class="summary"><p><p>Mise en place de systèmes d'analyses d'images et de vidéos par intelligence artificielle.</p></p></div>
             <ul class="highlights">
-              <li><p><p>Entraînements de modèles de détection d'objets ou de segmentation, avec optimisation des hyperparamètres.</p></p></li>
-              <li><p><p>Développement des outils logiciels pour l'utilisation des modèles d'IA.</p></p></li>
-              <li><p><p>Travail de recherche et développement de solutions pour les problématiques client ou de méthodes pour augmenter les performances des modèles dans le cas d'une faible quantité de données ou de données bruitées.</p></p></li>
-              <li><p><p>Administration de systèmes embarqués (Jetson Nvidia) et déploiement de modèles pour l'inférence.</p></p></li>
-              <li><p><p>Développement d'outils logiciels pour la préparation des données et les entraînements.</p></p></li>
+              <li><p><p>Développement d'un modèle <code>scikit-learn</code> pour l'analyse de texture d'enrobés bitumés: conception, récolte des données et prototypage, et mise en place du pipeline de data processing et d'entraînement.</p></p></li>
+              <li><p><p>Data processing et entraînements de modèles de détection ou segmentation d'objets sur <code>pytorch</code> pour l'inspection d'infrastructures industrielles.</p></p></li>
+              <li><p><p>Mise en place de système de contrôle d'accès (détection d'équipements de protection), déploiement sur systèmes embarqués (<code>docker</code>) pour prédiction en temps réel, et administration à distance (<code>sysadmin Linux</code>).</p></p></li>
+              <li><p><p>Travail bibliographique sur les problématiques client et les méthodes d'entraînements avec une quantité limitée de données (GAN, semi-supervision, data augmentation).</p></p></li>
+              <li><p><p>Développement collaboratif en intégration continue, revues de code et gestion de tickets.</p></p></li>
               <li><p><p>Encadrement de stagiaires.</p></p></li>
             </ul>
           </div>
@@ -1017,7 +1010,7 @@ section .location {
            <div class="item" id="work-item">
             <div class="summary"><p><p>État-de-l'art sur la reconnaissance automatique de la parole.</p></p></div>
             <ul class="highlights">
-              <li><p><p>Rédaction d'un rapport: présentation des solutions traditionnelles ou à réseaux de neurones.</p></p></li>
+              <li><p><p>Synthèse bibliographique: présentation des solutions traditionnelles ou à réseaux de neurones.</p></p></li>
               <li><p><p>Tests de librairies (Kaldi, DeepSpeech).</p></p></li>
             </ul>
           </div>
@@ -1036,6 +1029,12 @@ section .location {
     
            <div class="item" id="work-item">
             <div class="summary"><p><p>Études de validation du comportement mécanique (statique, thermique et dynamique) de composants structurels pour l'industrie aérospatiale et la Défense.</p></p></div>
+            <ul class="highlights">
+              <li><p><p>Simulations par éléments finis (maillage, calcul et post-traitements).</p></p></li>
+              <li><p><p>Traitement et analyse de données de calculs et d’essais.</p></p></li>
+              <li><p><p>Développement d’outils logiciels (Python, VBA).</p></p></li>
+              <li><p><p>Rédaction de notes de calcul.</p></p></li>
+            </ul>
           </div>
         </section>
         <section class="work-item">
@@ -1052,6 +1051,12 @@ section .location {
     
            <div class="item" id="work-item">
             <div class="summary"><p><p>Études expérimentale et numérique de l'effet de l'hydrogène sur le comportement plastique des métaux.</p></p></div>
+            <ul class="highlights">
+              <li><p><p>Simulations par éléments finis: génération, maillage et post-traitement automatisés de modèles synthétiques.</p></p></li>
+              <li><p><p>Préparation des échantillons: traitement thermique, polissage électro-chimique, chargement gazeux.</p></p></li>
+              <li><p><p>Réalisation d’essais mécaniques et analyse des échantillons d'essais par microscopie électronique à balayage et microscopie à force atomique.</p></p></li>
+              <li><p><p>Synthèse bibliographique.</p></p></li>
+            </ul>
           </div>
         </section>
         <section class="work-item">
@@ -1101,7 +1106,7 @@ section .location {
     
           <ul class="courses">
             <li>développement (Python/R)</li>
-            <li>machine learning</li>
+            <li>machine learning / deep learning</li>
             <li>data processing</li>
             <li>data visualization</li>
             <li>statistiques</li>
@@ -1215,16 +1220,6 @@ section .location {
         <div class="display">
           <h3 class="language">
             Espagnol
-          </h3>
-          <div class="item">
-    <div class="level fluencyB1">
-                  <em>B1: Intermédiaire</em>
-                  <div class="bar"></div>
-                </div>      </div>
-        </div>
-        <div class="display">
-          <h3 class="language">
-            Néerlandais
           </h3>
           <div class="item">
     <div class="level fluencyA1">

@@ -7,11 +7,11 @@
             "place": "Amiens",
             "gender": "M"
         },
-        "image": "images/photo.png",
+        "_image": "images/photo.png",
         "email": "francois.plessier@gmail.com",
         "phone": "06.17.53.01.56",
         "url": "",
-        "summary": "Initialement ingénieur-docteur en mécanique, j’ai complété mon profil en devenant data scientist pour satisfaire mon goût pour le développement informatique et travailler dans un domaine en constante évolution. Je suis stimulé par le travail en équipe et la compréhension de nouveaux concepts.",
+        "summary": "Ingénieur-docteur en mécanique devenu data scientist, mon profil interdisciplinaire relie la compréhension des problématiques industrielles, la rigueur du développement informatique et la conception de systèmes basés sur l'intelligence artificielle. Je recherche des environnements collaboratifs favorisant le travail en équipe. ",
         "location": {
             "address": "",
             "postalCode": "33000",
@@ -24,6 +24,11 @@
                 "network": "LinkedIn",
                 "username": "François Plessier",
                 "url": "https://www.linkedin.com/in/francois-plessier"
+            },
+            {
+                "network": "Github",
+                "username": "FrankwaP",
+                "url": "https://github.com/FrankwaP"
             }
         ]
     },
@@ -34,11 +39,11 @@
             "url": "",
             "startDate": "2024-09",
             "endDate": "2025-12",
-            "summary": "Mise en place d'une approche combinant modèles de machine learning et modèles statistiques classiques (effets mixtes), pour la prédiction d'évènements de santé à partir de données longitudinales.",
+            "summary": "Mise en place d'une approche combinant modèles de machine learning et de statistiques, pour la prédiction d'évènements de santé.",
             "highlights": [
-                "Développement d'un [paquet R](https://github.com/FrankwaP/mixedML) utilisant `reticulate` pour interfacer R et Python.",
-                "Implémentation de modèles de Reservoir Computing (librairie [reservoirpy](https://reservoirpy.readthedocs.io/)) pour la prédiction d'évènements de santé. ",
-                "Data Management d'un jeu de données de santé publique."
+                "Développement en intégration continue d'un [paquet R](https://github.com/FrankwaP/mixedML) interfaçant R et des librairies Python avec `reticulate`.",
+                "Implémentation de modèles à réseau de neurones récurrents (reservoir computing) pour la prédiction à partir de données longitudinales. Contribution à la libraire [`reservoirpy`](https://github.com/reservoirpy/reservoirpy).",
+                "Data management d'un jeu de données de santé publique."
             ]
         },
         {
@@ -47,13 +52,13 @@
             "url": "",
             "startDate": "2019-12",
             "endDate": "2023-11",
-            "summary": "Mise en place de systèmes d'analyse d'images et de vidéos par Intelligence Artificielle, pour l'inspection d'infrastructures industrielles, le contrôle qualité ou le contrôle d'accès en zones restreintes.",
+            "summary": "Mise en place de systèmes d'analyses d'images et de vidéos par intelligence artificielle.",
             "highlights": [
-                "Entraînements de modèles de détection d'objets ou de segmentation, avec optimisation des hyperparamètres.",
-                "Développement des outils logiciels pour l'utilisation des modèles d'IA.",
-                "Travail de recherche et développement de solutions pour les problématiques client ou de méthodes pour augmenter les performances des modèles dans le cas d'une faible quantité de données ou de données bruitées.",
-                "Administration de systèmes embarqués (Jetson Nvidia) et déploiement de modèles pour l'inférence.",
-                "Développement d'outils logiciels pour la préparation des données et les entraînements.",
+                "Développement d'un modèle `scikit-learn` pour l'analyse de texture d'enrobés bitumés: conception, récolte des données et prototypage, et mise en place du pipeline de data processing et d'entraînement.",
+                "Data processing et entraînements de modèles de détection ou segmentation d'objets sur `pytorch` pour l'inspection d'infrastructures industrielles.",
+                "Mise en place de système de contrôle d'accès (détection d'équipements de protection), déploiement sur systèmes embarqués (`docker`) pour prédiction en temps réel, et administration à distance (`sysadmin Linux`).",
+                "Travail bibliographique sur les problématiques client et les méthodes d'entraînements avec une quantité limitée de données (GAN, semi-supervision, data augmentation).",
+                "Développement collaboratif en intégration continue, revues de code et gestion de tickets.",
                 "Encadrement de stagiaires."
             ]
         },
@@ -70,13 +75,13 @@
         },
         {
             "name": "CATIE",
-            "position": "Stage de Data Scientist",
+            "position": "Stage de Data Science",
             "url": "",
             "startDate": "2019-03",
             "endDate": "2019-08",
             "summary": "État-de-l'art sur la reconnaissance automatique de la parole.",
             "highlights": [
-                "Rédaction d'un rapport: présentation des solutions traditionnelles ou à réseaux de neurones.",
+                "Synthèse bibliographique: présentation des solutions traditionnelles ou à réseaux de neurones.",
                 "Tests de librairies (Kaldi, DeepSpeech)."
             ]
         },
@@ -87,10 +92,10 @@
             "startDate": "2010-10",
             "endDate": "2019-05",
             "summary": "Études de validation du comportement mécanique (statique, thermique et dynamique) de composants structurels pour l'industrie aérospatiale et la Défense.",
-            "_highlights": [
-                "Simulations par éléments finis.",
+            "highlights": [
+                "Simulations par éléments finis (maillage, calcul et post-traitements).",
                 "Traitement et analyse de données de calculs et d’essais.",
-                "Développement d’outils logiciels (Python, VBA)",
+                "Développement d’outils logiciels (Python, VBA).",
                 "Rédaction de notes de calcul."
             ]
         },
@@ -101,9 +106,10 @@
             "startDate": "2005-09",
             "endDate": "2010-09",
             "summary": "Études expérimentale et numérique de l'effet de l'hydrogène sur le comportement plastique des métaux.",
-            "_highlights": [
-                "Simulations par éléments finis.",
-                "Mise en place et réalisation d’essais mécaniques après chargements gazeux.",
+            "highlights": [
+                "Simulations par éléments finis: génération, maillage et post-traitement automatisés de modèles synthétiques.",
+                "Préparation des échantillons: traitement thermique, polissage électro-chimique, chargement gazeux.",
+                "Réalisation d’essais mécaniques et analyse des échantillons d'essais par microscopie électronique à balayage et microscopie à force atomique.",
                 "Synthèse bibliographique."
             ]
         },
@@ -133,7 +139,7 @@
             "score": "",
             "courses": [
                 "développement (Python/R)",
-                "machine learning",
+                "machine learning / deep learning",
                 "data processing",
                 "data visualization",
                 "statistiques"
@@ -184,71 +190,56 @@
     ],
     "skills": [
         {
-            "name": "Data Science",
+            "name": "Python",
             "level": "",
             "keywords": [
+		"pandas",
                 "scikit-learn",
                 "pytorch",
-                "seaborn",
-                "numpy",
-                "pandas"
-            ]
-        },
-        {
-            "name": "Développement Python",
-            "level": "",
-            "keywords": [
-                "pytest",
-                "mypy",
                 "opencv",
                 "pillow",
                 "scikit-image",
-                "streamlit",
-                "beautiful soup",
-                "pip/conda"
+                "beautiful soup"
             ]
         },
         {
-            "name": "Développement R",
+            "name": "R",
             "level": "",
             "keywords": [
-                "quarto/Rmd",
-                "usethis",
-                "devtools",
-                "testthat",
+                "tidyverse",
                 "reticulate",
-                "renv"
+                "quarto/Rmd"
             ]
         },
         {
-            "name": "Développement (autre)",
+            "name": "Développement",
             "level": "",
             "keywords": [
                 "git",
-                "pre-commit",
                 "dvc",
-                "docker",
-                "bash",
-                "batch",
-                "makefile"
+                "pre-commit",
+                "github actions",
+                "pytest",
+                "testthat",
+                "makefile",
+                "docker"
             ]
         },
-        {
-            "name": "Informatique (divers)",
+	{
+            "name": "Outils data et système",
             "level": "",
             "keywords": [
-                "sysadmin Linux",
-                "Nvidia Jetson",
                 "SQL",
-                "Excel+VBA"
+                "Excel+VBA",
+                "sysadmin Linux"
             ]
         },
         {
-            "name": "Complémentaires",
+            "name": "Compétences complémentaires",
             "level": "",
             "keywords": [
-                "rédaction et présentation scientifiques",
-                "travail bibliographique",
+                "rédaction scientifiques",
+                "présentations",
                 "enseignement"
             ]
         }
@@ -264,10 +255,6 @@
         },
         {
             "language": "Espagnol",
-            "fluency": "B1: Intermédiaire"
-        },
-        {
-            "language": "Néerlandais",
             "fluency": "A1: Débutant"
         }
     ],
