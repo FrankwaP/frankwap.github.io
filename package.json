@@ -6,7 +6,8 @@
   "scripts": {
     "validate": "resumed validate fr.json",
     "autoformat":"tmp=$(mktemp); json_reformat < fr.json > $tmp && mv $tmp fr.json ",
-    "render": "resumed render fr.json --theme jsonresume-theme-frankwap-fr --output index.html",
+    "render-html": "resumed render fr.json --theme jsonresume-theme-frankwap-fr --output index.html",
+    "render-pdf": "resumed render fr.json --format pdf --theme jsonresume-theme-frankwap-fr --output Francois-Plessier.pdf",
     "hard-clean": "rm -rf node_modules package-lock.json; npm cache clean --force"
   },
   "keywords": [],
@@ -14,9 +15,9 @@
   "license": "ISC",
   "dependencies": {
     "jsonresume-theme-frankwap-fr": "git+https://github.com/FrankwaP/jsonresume-theme-frankwap-fr.git",
-    "resumed": "^2.0.0"
+    "resumed": "6.1.0"
   },
   "resolutions": {
-    "resumed": "2.0.0"
+    "resumed": "6.1.0"
   }
 }
