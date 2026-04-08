@@ -59,6 +59,7 @@
                 "Mise en place de systèmes de contrôle d'accès (détection d'équipements de protection), déploiement sur systèmes embarqués pour la prédiction en temps réel, et administration à distance (`Docker`, `Linux`, `Nvidia Jetson`).",
                 "Travail bibliographique sur les méthodes d'entraînement avec une quantité limitée de données (GAN, semi-supervision, week superision, data augmentation).",
                 "Développement collaboratif en intégration continue, revues de code et gestion de tickets.",
+		"Réunions clients : analyse et clarification des besoins métier.",
                 "Encadrement de stagiaires."
             ]
         },
@@ -96,7 +97,8 @@
                 "Simulations par éléments finis (maillage, calcul et post-traitements).",
                 "Traitement et analyse de données de calculs et d’essais.",
                 "Développement d’outils logiciels en `Python` et `VBA` pour automatiser le traitement et l’analyse de données de calculs et d’essais.",
-                "Rédaction de notes de calcul."
+                "Rédaction de notes de calcul.",
+		"Réunions clients: lancement et suivi de projet."
             ]
         },
         {
