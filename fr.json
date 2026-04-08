@@ -11,7 +11,7 @@
         "email": "francois.plessier@gmail.com",
         "phone": "06.17.53.01.56",
         "url": "",
-        "summary": "Ingénieur-docteur en mécanique devenu data scientist, mon profil interdisciplinaire relie la compréhension des problématiques industrielles, la rigueur du développement informatique et la conception de systèmes fondés sur l’intelligence artificielle. Je recherche des environnements collaboratifs favorisant le travail en équipe. ",
+        "summary": "Ingénieur-docteur en mécanique devenu data scientist, mon profil interdisciplinaire relie la compréhension des problématiques industrielles, la rigueur du développement informatique et la conception de systèmes fondés sur l’intelligence artificielle. Je recherche des environnements collaboratifs favorisant le travail en équipe.",
         "location": {
             "address": "",
             "postalCode": "33000",
@@ -28,7 +28,7 @@
             {
                 "network": "GitHub",
                 "username": "FrankwaP",
-                "url": "https://github.com/FrankwaP"
+                "url": "https://gitbub.com/FrankwaP"
             }
         ]
     },
@@ -39,10 +39,10 @@
             "url": "",
             "startDate": "2024-09",
             "endDate": "2025-12",
-            "summary": "Mise en place d'une approche combinant modèles de machine learning et de statistiques pour la prédiction d'évènements de santé.",
+            "summary": "Mise en place d'une approche combinant modèles statistiques et de machine learning pour la prédiction d'évènements de santé.",
             "highlights": [
-                "Développement en intégration continue d'un [paquet R](https://github.com/FrankwaP/mixedML) interfaçant R et des librairies Python avec `reticulate`.",
-                "Implémentation de modèles à réseau de neurones récurrents (reservoir computing) pour la prédiction à partir de données longitudinales. Contribution à la librairie [`reservoirpy`](https://github.com/reservoirpy/reservoirpy).",
+                "Développement en intégration continue d'un [paquet R](https://GitHub.com/FrankwaP/mixedML) interfaçant `R` et des librairies `Python` avec `reticulate`.",
+                "Implémentation de modèles à réseau de neurones récurrents (reservoir computing) pour traiter des données lonGitudinales. Contribution à la librairie [`reservoirpy`](https://GitHub.com/reservoirpy/reservoirpy).",
                 "Data management d'un jeu de données de santé publique."
             ]
         },
@@ -54,10 +54,10 @@
             "endDate": "2023-11",
             "summary": "Mise en place de systèmes d'analyse d'images et de vidéos par intelligence artificielle.",
             "highlights": [
-                "Développement d'un modèle `scikit-learn` pour l'analyse de texture d'enrobés bitumés: conception, récolte des données et prototypage, et mise en place du pipeline de data processing et d'entraînement.",
-                "Data processing et entraînements de modèles de détection et segmentation d'objets sur `pytorch` pour l'inspection d'infrastructures industrielles.",
-                "Mise en place de systèmes de contrôle d'accès (détection d'équipements de protection), déploiement sur systèmes embarqués (`docker`) pour la prédiction en temps réel, et administration à distance (`sysadmin Linux`).",
-                "Travail bibliographique sur les problématiques clients et les méthodes d'entraînement avec une quantité limitée de données (GAN, semi-supervision, data augmentation).",
+                "Développement d'un modèle de computer vision sur `scikit-learn` pour l'analyse de texture d'enrobés bitumés: conception, récolte des données et prototypage, et mise en place du pipeline de data processing et d'inférence.",
+                "Data processing et entraînements de modèles de détection et segmentation d'objets sur `PyTorch` pour l'inspection d'infrastructures industrielles.",
+                "Mise en place de systèmes de contrôle d'accès (détection d'équipements de protection), déploiement sur systèmes embarqués pour la prédiction en temps réel, et administration à distance (`Docker`, `Linux`, `Nvidia Jetson`).",
+                "Travail bibliographique sur les méthodes d'entraînement avec une quantité limitée de données (GAN, semi-supervision, week superision, data augmentation).",
                 "Développement collaboratif en intégration continue, revues de code et gestion de tickets.",
                 "Encadrement de stagiaires."
             ]
@@ -68,7 +68,7 @@
             "url": "",
             "startDate": "2020-01",
             "endDate": "2020-04",
-            "summary": "Cours appliqués de développement en Python, web scraping, data processing et machine learning (28 heures au total).",
+            "summary": "Cours appliqués de développement en `Python`, web scraping, data processing et machine learning (28 heures).",
             "highlights": [
 
             ]
@@ -87,7 +87,7 @@
         },
         {
             "name": "B.E.C. Sud-Ouest Développement et Ingéliance Technologies",
-            "position": "Ingénieur en calculs mécaniques",
+            "position": "Ingénieur en Calculs Mécaniques",
             "url": "",
             "startDate": "2010-10",
             "endDate": "2019-05",
@@ -95,7 +95,7 @@
             "highlights": [
                 "Simulations par éléments finis (maillage, calcul et post-traitements).",
                 "Traitement et analyse de données de calculs et d’essais.",
-                "Développement d’outils logiciels (Python, VBA).",
+                "Développement d’outils logiciels en `Python` et `VBA` pour automatiser le traitement et l’analyse de données de calculs et d’essais.",
                 "Rédaction de notes de calcul."
             ]
         },
@@ -115,7 +115,7 @@
         },
         {
             "name": "Université de Bordeaux 1 et ENSAM Bordeaux",
-            "position": "Enseignant en sciences de l'ingénieur.",
+            "position": "Enseignant en Sciences de l'Ingénieur.",
             "url": "",
             "startDate": "2005-09",
             "endDate": "2009-06",
@@ -132,14 +132,15 @@
         {
             "institution": "Data University Bordeaux",
             "url": "",
-            "area": "Formation de data analyst et data scientist.",
+            "area": "Formation de Data Analyst et Data Scientist",
             "studyType": "",
             "startDate": "2019-03",
             "endDate": "2019-09",
             "score": "",
             "courses": [
                 "développement (Python/R)",
-                "machine learning / deep learning",
+                "machine learning (scikit-learn)",
+		"deep learning (PyTorch)",
                 "data processing",
                 "data visualization",
                 "statistiques"
@@ -148,7 +149,7 @@
         {
             "institution": "Université de Technologie de Compiègne",
             "url": "",
-            "area": "Master recherche en Sciences et Technologies.",
+            "area": "Master recherche en Sciences et Technologies",
             "studyType": "",
             "startDate": "2004-09",
             "endDate": "2005-06",
@@ -158,9 +159,9 @@
             ]
         },
         {
-            "institution": "Université de Technologies de Compiègne",
+            "institution": "Université de Technologie de Compiègne",
             "url": "",
-            "area": "Diplôme d’ingénieur des systèmes mécaniques.",
+            "area": "Diplôme d’Ingénieur des Systèmes Mécaniques",
             "studyType": "",
             "startDate": "2001-09",
             "endDate": "2004-06",
@@ -193,13 +194,13 @@
             "name": "Python",
             "level": "",
             "keywords": [
-		"pandas",
+                "pandas",
                 "scikit-learn",
-                "pytorch",
-                "opencv",
-                "pillow",
+                "PyTorch",
+                "OpenCV",
+                "Pillow",
                 "scikit-image",
-                "beautiful soup"
+                "Beautiful Soup"
             ]
         },
         {
@@ -208,37 +209,39 @@
             "keywords": [
                 "tidyverse",
                 "reticulate",
-                "quarto/RMarkdown"
+                "Quarto",
+		"RMarkdown"
             ]
         },
         {
             "name": "Développement",
             "level": "",
             "keywords": [
-                "git",
-                "dvc",
+                "Git",
+                "DVC",
                 "pre-commit",
-                "GitHub actions",
+                "GitHub Actions",
                 "pytest",
                 "testthat",
-                "makefile",
-                "docker"
+                "Makefile",
+                "Docker"
             ]
         },
-	{
+        {
             "name": "Outils data et système",
             "level": "",
             "keywords": [
                 "SQL",
                 "Excel/VBA",
-                "sysadmin Linux"
+                "Linux (bash, serveur)"
             ]
         },
         {
             "name": "Compétences complémentaires",
             "level": "",
             "keywords": [
-                "rédaction et présentation scientifiques",
+                "rédaction scientifique",
+		"présentations",
                 "enseignement"
             ]
         }

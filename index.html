@@ -391,8 +391,8 @@ code,
 .keywords li,
 .courses li {
   display: inline-block;
-  margin: 2px 2px 2px 0;
-  padding: 4px 5px 5px;
+  margin: 0.1em;
+  padding: 0.2em;
   font-size: 0.9rem;
   line-height: 1;
   color: #3e6d8e;
@@ -514,7 +514,7 @@ code,
 
 #languages .item,
 #skills .item {
-  width: 15em;
+  flex: 1 1;
   padding: 0 0 0 0;
   border-bottom: none;
 }
@@ -528,12 +528,13 @@ code,
 }
 
 
-#skills .item {
-  width: 16em;
-}
+/*#skills .item {
+  /*width: 15em;
+}*/
 
 #skills .item .keywords {
-  width: 15em;
+  /*width: 16em;*/
+  flex: 1 1;
 }
 
 /* Skill chart */
@@ -698,9 +699,9 @@ code,
 }
 
 @media print {
-  #profiles a:not(.hide-href-print)::after{
+  /*#profiles a:not(.hide-href-print)::after{
     content: " (" attr(href) ") ";
-  }
+  }*/
   #resume {
     margin: 0.1em;
     padding: 0.1em;
@@ -717,7 +718,7 @@ code,
   .company::before,
   .organization::before,
   .awarder::before {
-    content: "chez ";
+    content: " | ";
   }
   .main-summary {
     padding: 0;
@@ -762,7 +763,7 @@ code,
   ul.keywords li::after,
   ul.courses li::after {
     padding: 0 0 0 0.1rem;
-    content: " |";
+    /*content: " |";*/
   }
   ul.keywords::before,
   ul.courses::before {
@@ -770,7 +771,7 @@ code,
     font-weight: 600;
   }
   #skills .item {
-    width: calc(100% / 3);
+    flex: 1 1;
     padding: 0;
   }
   .highlights {
@@ -855,7 +856,7 @@ code,
     				<div class="username">
     					<span class="fab fa-github github social"></span>
     					<span class="url">
-    						<a target="_blank" href="https://github.com/FrankwaP">FrankwaP</a>
+    						<a target="_blank" href="https://gitbub.com/FrankwaP">FrankwaP</a>
     					</span>
     				</div>
     			</div>
@@ -880,11 +881,11 @@ code,
     			 			<ul class="keywords">
     				<li>pandas</li>
     				<li>scikit-learn</li>
-    				<li>pytorch</li>
-    				<li>opencv</li>
-    				<li>pillow</li>
+    				<li>PyTorch</li>
+    				<li>OpenCV</li>
+    				<li>Pillow</li>
     				<li>scikit-image</li>
-    				<li>beautiful soup</li>
+    				<li>Beautiful Soup</li>
     			</ul>
     		</div>
     		<div class="item">
@@ -894,7 +895,8 @@ code,
     			 			<ul class="keywords">
     				<li>tidyverse</li>
     				<li>reticulate</li>
-    				<li>quarto/RMarkdown</li>
+    				<li>Quarto</li>
+    				<li>RMarkdown</li>
     			</ul>
     		</div>
     		<div class="item">
@@ -902,14 +904,14 @@ code,
     				Développement
     			</h3>
     			 			<ul class="keywords">
-    				<li>git</li>
-    				<li>dvc</li>
+    				<li>Git</li>
+    				<li>DVC</li>
     				<li>pre-commit</li>
-    				<li>GitHub actions</li>
+    				<li>GitHub Actions</li>
     				<li>pytest</li>
     				<li>testthat</li>
-    				<li>makefile</li>
-    				<li>docker</li>
+    				<li>Makefile</li>
+    				<li>Docker</li>
     			</ul>
     		</div>
     		<div class="item">
@@ -919,7 +921,7 @@ code,
     			 			<ul class="keywords">
     				<li>SQL</li>
     				<li>Excel/VBA</li>
-    				<li>sysadmin Linux</li>
+    				<li>Linux (bash, serveur)</li>
     			</ul>
     		</div>
     		<div class="item">
@@ -927,7 +929,8 @@ code,
     				Compétences complémentaires
     			</h3>
     			 			<ul class="keywords">
-    				<li>rédaction et présentation scientifiques</li>
+    				<li>rédaction scientifique</li>
+    				<li>présentations</li>
     				<li>enseignement</li>
     			</ul>
     		</div>
@@ -952,10 +955,10 @@ code,
             </header>
     
            <div class="item" id="work-item">
-            <div class="summary"><p><p>Mise en place d'une approche combinant modèles de machine learning et de statistiques pour la prédiction d'évènements de santé.</p></p></div>
+            <div class="summary"><p><p>Mise en place d'une approche combinant modèles statistiques et de machine learning pour la prédiction d'évènements de santé.</p></p></div>
             <ul class="highlights">
-              <li><p><p>Développement en intégration continue d'un <a href="https://github.com/FrankwaP/mixedML">paquet R</a> interfaçant R et des librairies Python avec <code>reticulate</code>.</p></p></li>
-              <li><p><p>Implémentation de modèles à réseau de neurones récurrents (reservoir computing) pour la prédiction à partir de données longitudinales. Contribution à la librairie <a href="https://github.com/reservoirpy/reservoirpy"><code>reservoirpy</code></a>.</p></p></li>
+              <li><p><p>Développement en intégration continue d'un <a href="https://GitHub.com/FrankwaP/mixedML">paquet R</a> interfaçant <code>R</code> et des librairies <code>Python</code> avec <code>reticulate</code>.</p></p></li>
+              <li><p><p>Implémentation de modèles à réseau de neurones récurrents (reservoir computing) pour traiter des données lonGitudinales. Contribution à la librairie <a href="https://GitHub.com/reservoirpy/reservoirpy"><code>reservoirpy</code></a>.</p></p></li>
               <li><p><p>Data management d'un jeu de données de santé publique.</p></p></li>
             </ul>
           </div>
@@ -975,10 +978,10 @@ code,
            <div class="item" id="work-item">
             <div class="summary"><p><p>Mise en place de systèmes d'analyse d'images et de vidéos par intelligence artificielle.</p></p></div>
             <ul class="highlights">
-              <li><p><p>Développement d'un modèle <code>scikit-learn</code> pour l'analyse de texture d'enrobés bitumés: conception, récolte des données et prototypage, et mise en place du pipeline de data processing et d'entraînement.</p></p></li>
-              <li><p><p>Data processing et entraînements de modèles de détection et segmentation d'objets sur <code>pytorch</code> pour l'inspection d'infrastructures industrielles.</p></p></li>
-              <li><p><p>Mise en place de systèmes de contrôle d'accès (détection d'équipements de protection), déploiement sur systèmes embarqués (<code>docker</code>) pour la prédiction en temps réel, et administration à distance (<code>sysadmin Linux</code>).</p></p></li>
-              <li><p><p>Travail bibliographique sur les problématiques clients et les méthodes d'entraînement avec une quantité limitée de données (GAN, semi-supervision, data augmentation).</p></p></li>
+              <li><p><p>Développement d'un modèle de computer vision sur <code>scikit-learn</code> pour l'analyse de texture d'enrobés bitumés: conception, récolte des données et prototypage, et mise en place du pipeline de data processing et d'inférence.</p></p></li>
+              <li><p><p>Data processing et entraînements de modèles de détection et segmentation d'objets sur <code>PyTorch</code> pour l'inspection d'infrastructures industrielles.</p></p></li>
+              <li><p><p>Mise en place de systèmes de contrôle d'accès (détection d'équipements de protection), déploiement sur systèmes embarqués pour la prédiction en temps réel, et administration à distance (<code>Docker</code>, <code>Linux</code>, <code>Nvidia Jetson</code>).</p></p></li>
+              <li><p><p>Travail bibliographique sur les méthodes d'entraînement avec une quantité limitée de données (GAN, semi-supervision, week superision, data augmentation).</p></p></li>
               <li><p><p>Développement collaboratif en intégration continue, revues de code et gestion de tickets.</p></p></li>
               <li><p><p>Encadrement de stagiaires.</p></p></li>
             </ul>
@@ -997,7 +1000,7 @@ code,
             </header>
     
            <div class="item" id="work-item">
-            <div class="summary"><p><p>Cours appliqués de développement en Python, web scraping, data processing et machine learning (28 heures au total).</p></p></div>
+            <div class="summary"><p><p>Cours appliqués de développement en <code>Python</code>, web scraping, data processing et machine learning (28 heures).</p></p></div>
           </div>
         </section>
         <section class="work-item">
@@ -1028,7 +1031,7 @@ code,
                 <span class="startDate">oct. 2010</span>
                 <span class="endDate">- mai 2019</span>
               </div>
-              <div class="position">Ingénieur en calculs mécaniques</div>
+              <div class="position">Ingénieur en Calculs Mécaniques</div>
                 <div class="company">B.E.C. Sud-Ouest Développement et Ingéliance Technologies</div>
             </header>
     
@@ -1037,7 +1040,7 @@ code,
             <ul class="highlights">
               <li><p><p>Simulations par éléments finis (maillage, calcul et post-traitements).</p></p></li>
               <li><p><p>Traitement et analyse de données de calculs et d’essais.</p></p></li>
-              <li><p><p>Développement d’outils logiciels (Python, VBA).</p></p></li>
+              <li><p><p>Développement d’outils logiciels en <code>Python</code> et <code>VBA</code> pour automatiser le traitement et l’analyse de données de calculs et d’essais.</p></p></li>
               <li><p><p>Rédaction de notes de calcul.</p></p></li>
             </ul>
           </div>
@@ -1072,7 +1075,7 @@ code,
                 <span class="startDate">sept. 2005</span>
                 <span class="endDate">- juin 2009</span>
               </div>
-              <div class="position">Enseignant en sciences de l&#x27;ingénieur.</div>
+              <div class="position">Enseignant en Sciences de l&#x27;Ingénieur.</div>
                 <div class="company">Université de Bordeaux 1 et ENSAM Bordeaux</div>
             </header>
     
@@ -1100,7 +1103,7 @@ code,
             </div>
             <div class="header-left">
               <div class="area">
-                Formation de data analyst et data scientist.
+                Formation de Data Analyst et Data Scientist
               </div>
               <div class="institution">
                 Data University Bordeaux
@@ -1111,7 +1114,8 @@ code,
     
           <ul class="courses">
             <li>développement (Python/R)</li>
-            <li>machine learning / deep learning</li>
+            <li>machine learning (scikit-learn)</li>
+            <li>deep learning (PyTorch)</li>
             <li>data processing</li>
             <li>data visualization</li>
             <li>statistiques</li>
@@ -1132,7 +1136,7 @@ code,
             </div>
             <div class="header-left">
               <div class="area">
-                Master recherche en Sciences et Technologies.
+                Master recherche en Sciences et Technologies
               </div>
               <div class="institution">
                 Université de Technologie de Compiègne
@@ -1157,10 +1161,10 @@ code,
             </div>
             <div class="header-left">
               <div class="area">
-                Diplôme d’ingénieur des systèmes mécaniques.
+                Diplôme d’Ingénieur des Systèmes Mécaniques
               </div>
               <div class="institution">
-                Université de Technologies de Compiègne
+                Université de Technologie de Compiègne
               </div>
             </div>
           </header>
