@@ -81,7 +81,7 @@
             "startDate": "2019-03",
             "endDate": "2019-08",
             "summary": "État de l'art sur la reconnaissance automatique de la parole.",
-            "highlights": [
+            "_highlights": [
                 "Synthèse bibliographique: présentation des solutions traditionnelles ou à réseaux de neurones.",
                 "Tests de librairies (Kaldi, DeepSpeech)."
             ]
@@ -93,12 +93,12 @@
             "startDate": "2010-10",
             "endDate": "2019-05",
             "summary": "Études de validation mécanique (statique, thermique et dynamique) de composants structurels pour l'industrie aérospatiale et la Défense.",
-            "highlights": [
+            "_highlights": [
                 "Simulations par éléments finis (maillage, calcul et post-traitements).",
                 "Traitement et analyse de données de calculs et d’essais.",
                 "Développement d’outils logiciels en `Python` et `VBA` pour automatiser le traitement et l’analyse de données de calculs et d’essais.",
                 "Rédaction de notes de calcul.",
-		"Réunions clients: lancement et suivi de projet."
+		        "Réunions clients: lancement et suivi de projet."
             ]
         },
         {
@@ -108,7 +108,7 @@
             "startDate": "2005-09",
             "endDate": "2010-09",
             "summary": "Études expérimentales et numériques de l'effet de l'hydrogène sur le comportement plastique des métaux.",
-            "highlights": [
+            "_highlights": [
                 "Simulations par éléments finis: génération, maillage et post-traitements automatisés de modèles synthétiques.",
                 "Préparation des échantillons: traitement thermique, polissage électro-chimique, chargement gazeux.",
                 "Réalisation d’essais mécaniques et analyse des échantillons d'essais par microscopie électronique à balayage et microscopie à force atomique.",
@@ -121,7 +121,7 @@
             "url": "",
             "startDate": "2005-09",
             "endDate": "2009-06",
-            "summary": "Cours de résistance des matériaux, mécanique du point et calculs par éléments finis.",
+            "_summary": "Cours de résistance des matériaux, mécanique du point et calculs par éléments finis.",
             "_highlights": [
 
             ]
