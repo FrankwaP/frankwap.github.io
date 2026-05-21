@@ -6,8 +6,7 @@
   "scripts": {
     "validate": "resumed validate fr.json",
     "autoformat":"tmp=$(mktemp); json_reformat < fr.json > $tmp && mv $tmp fr.json ",
-    "render-html": "resumed render fr.json --theme jsonresume-theme-frankwap-fr --output index.html",
-    "render-pdf": "resumed render fr.json --format pdf --theme jsonresume-theme-frankwap-fr --output Francois-Plessier.pdf",
+    "render": "resumed render fr.json --theme jsonresume-theme-frankwap-fr --output index.html",
     "hard-clean": "rm -rf node_modules package-lock.json; npm cache clean --force"
   },
   "keywords": [],

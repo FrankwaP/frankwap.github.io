@@ -11,7 +11,7 @@
         "email": "francois.plessier@gmail.com",
         "phone": "06.17.53.01.56",
         "url": "",
-        "summary": "Ingénieur-docteur en mécanique devenu data scientist, mon profil interdisciplinaire relie la compréhension des problématiques industrielles, la rigueur du développement informatique et la conception de systèmes fondés sur l’intelligence artificielle. Je recherche des environnements collaboratifs favorisant le travail en équipe.",
+        "summary": "Ingénieur-docteur en mécanique devenu data scientist, mon profil interdisciplinaire relie la compréhension des problématiques industrielles, la rigueur du développement informatique et la conception de systèmes fondés sur l’intelligence artificielle. Je recherche des environnements favorisant la collaboration et les échanges techniques.",
         "location": {
             "address": "",
             "postalCode": "33000",
@@ -39,10 +39,11 @@
             "url": "",
             "startDate": "2024-09",
             "endDate": "2025-12",
-            "summary": "Mise en place d'une approche combinant modèles statistiques et de machine learning pour la prédiction d'évènements de santé.",
+            "summary": "Mise en place d'une approche combinant modèles de statistiques et de machine learning pour la prédiction d'événements de santé.",
             "highlights": [
-                "Développement en intégration continue d'un [paquet R](https://GitHub.com/FrankwaP/mixedML) interfaçant `R` et des librairies `Python` avec `reticulate`.",
-                "Implémentation de modèles à réseau de neurones récurrents (reservoir computing) pour traiter des données lonGitudinales. Contribution à la librairie [`reservoirpy`](https://GitHub.com/reservoirpy/reservoirpy).",
+                "Développement en intégration continue d'un [paquet R](https://GitHub.com/FrankwaP/mixedML) interfaçant `R` et `Python` (`reticulate`).",
+                "Implémentation de modèles à réseau de neurones récurrents pour le traitement des données longitudinales.",
+                "Contribution à la librairie [`reservoirpy`](https://GitHub.com/reservoirpy/reservoirpy).",
                 "Data management d'un jeu de données de santé publique."
             ]
         },
@@ -52,14 +53,14 @@
             "url": "",
             "startDate": "2019-12",
             "endDate": "2023-11",
-            "summary": "Mise en place de systèmes d'analyse d'images et de vidéos par intelligence artificielle.",
+            "summary": "Conception et développement de systèmes d'analyse d'images et de vidéos par intelligence artificielle.",
             "highlights": [
-                "Développement d'un modèle de computer vision sur `scikit-learn` pour l'analyse de texture d'enrobés bitumés: conception, récolte des données et prototypage, et mise en place du pipeline de data processing et d'inférence.",
-                "Data processing et entraînements de modèles de détection et segmentation d'objets sur `PyTorch` pour l'inspection d'infrastructures industrielles.",
-                "Mise en place de systèmes de contrôle d'accès (détection d'équipements de protection), déploiement sur systèmes embarqués pour la prédiction en temps réel, et administration à distance (`Docker`, `Linux`, `Nvidia Jetson`).",
-                "Travail bibliographique sur les méthodes d'entraînement avec une quantité limitée de données (GAN, semi-supervision, week superision, data augmentation).",
-                "Développement collaboratif en intégration continue, revues de code et gestion de tickets.",
-		"Réunions clients : analyse et clarification des besoins métier.",
+                "Conception et développement d'un outil d'analyse d'enrobés bitumés : collecte des données et prototypage, mise en place du pipeline ML (`scikit-learn`).",
+                "Développement de modèles de détection et segmentation d'objets pour l'inspection d'infrastructures industrielles (canalisations, stations offshore) (`PyTorch`).",
+                "Mise en place de systèmes de contrôle d'accès (détection d'équipements de protection) : déploiement sur systèmes embarqués (edge computing), et administration à distance (`Docker`, `Linux`, `Nvidia Jetson`).",
+                "Veille technique sur les méthodes d'entraînement avec une quantité limitée de données (GAN, semi-supervision, weak supervision, data augmentation).",
+                "Développement collaboratif en CI/CD, revues de code et gestion de tickets.",
+                "Réunions clients : analyse et clarification des besoins métier.",
                 "Encadrement de stagiaires."
             ]
         },
@@ -80,9 +81,9 @@
             "url": "",
             "startDate": "2019-03",
             "endDate": "2019-08",
-            "summary": "État de l'art sur la reconnaissance automatique de la parole.",
+            "summary": "Veille technologique sur la reconnaissance automatique de la parole.",
             "_highlights": [
-                "Synthèse bibliographique: présentation des solutions traditionnelles ou à réseaux de neurones.",
+                "Synthèse bibliographique.",
                 "Tests de librairies (Kaldi, DeepSpeech)."
             ]
         },
@@ -92,13 +93,11 @@
             "url": "",
             "startDate": "2010-10",
             "endDate": "2019-05",
-            "summary": "Études de validation mécanique (statique, thermique et dynamique) de composants structurels pour l'industrie aérospatiale et la Défense.",
-            "_highlights": [
-                "Simulations par éléments finis (maillage, calcul et post-traitements).",
-                "Traitement et analyse de données de calculs et d’essais.",
-                "Développement d’outils logiciels en `Python` et `VBA` pour automatiser le traitement et l’analyse de données de calculs et d’essais.",
-                "Rédaction de notes de calcul.",
-		        "Réunions clients: lancement et suivi de projet."
+            "summary": "Études de validation mécanique (statique, thermique et dynamique) pour l'industrie aérospatiale et la défense.",
+            "highlights": [
+                "Simulations par éléments finis (maillage, calcul et post-traitement).",
+                "Développement d’outils `Python` et `VBA` pour l’automatisation et l’analyse de données.",
+                "Réunions clients : lancement et suivi de projet."
             ]
         },
         {
@@ -107,10 +106,10 @@
             "url": "",
             "startDate": "2005-09",
             "endDate": "2010-09",
-            "summary": "Études expérimentales et numériques de l'effet de l'hydrogène sur le comportement plastique des métaux.",
+            "summary": "Modélisation numérique et étude expérimentale de l'effet de l'hydrogène sur le comportement plastique des métaux.",
             "_highlights": [
-                "Simulations par éléments finis: génération, maillage et post-traitements automatisés de modèles synthétiques.",
-                "Préparation des échantillons: traitement thermique, polissage électro-chimique, chargement gazeux.",
+                "Simulations par éléments finis : génération, maillage et post-traitements automatisés de modèles synthétiques.",
+                "Préparation des échantillons : traitement thermique, polissage électro-chimique, chargement gazeux.",
                 "Réalisation d’essais mécaniques et analyse des échantillons d'essais par microscopie électronique à balayage et microscopie à force atomique.",
                 "Synthèse bibliographique."
             ]
@@ -121,8 +120,8 @@
             "url": "",
             "startDate": "2005-09",
             "endDate": "2009-06",
-            "_summary": "Cours de résistance des matériaux, mécanique du point et calculs par éléments finis.",
-            "_highlights": [
+            "summary": "Cours de résistance des matériaux, mécanique du point et calculs par éléments finis.",
+            "highlights": [
 
             ]
         }
@@ -134,7 +133,7 @@
         {
             "institution": "Data University Bordeaux",
             "url": "",
-            "area": "Formation de Data Analyst et Data Scientist",
+            "area": "Formation de Data Analyst / Data Scientist",
             "studyType": "",
             "startDate": "2019-03",
             "endDate": "2019-09",
@@ -142,7 +141,7 @@
             "courses": [
                 "développement (Python/R)",
                 "machine learning (scikit-learn)",
-		"deep learning (PyTorch)",
+                "deep learning (PyTorch)",
                 "data processing",
                 "data visualization",
                 "statistiques"
@@ -212,11 +211,11 @@
                 "tidyverse",
                 "reticulate",
                 "Quarto",
-		"RMarkdown"
+                "RMarkdown"
             ]
         },
         {
-            "name": "Développement",
+            "name": "Développement (CI/CD)",
             "level": "",
             "keywords": [
                 "Git",
@@ -243,16 +242,12 @@
             "level": "",
             "keywords": [
                 "rédaction scientifique",
-		"présentations",
+                "présentations",
                 "enseignement"
             ]
         }
     ],
     "languages": [
-        {
-            "language": "Français",
-            "fluency": "C2: Langue maternelle"
-        },
         {
             "language": "Anglais",
             "fluency": "C1: Avancé"
@@ -273,7 +268,7 @@
         },
         {
             "name": "",
-            "title": "Mix / DJing",
+            "title": "DJing",
             "image": "images/mixxx.svg",
             "keywords": [
 
