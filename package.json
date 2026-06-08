@@ -7,12 +7,14 @@
     "validate": "resumed validate fr.json",
     "autoformat":"tmp=$(mktemp); json_reformat < fr.json > $tmp && mv $tmp fr.json ",
     "render": "resumed render fr.json --theme jsonresume-theme-frankwap-fr --output index.html",
-    "hard-clean": "rm -rf node_modules package-lock.json; npm cache clean --force"
+    "render-test": "resumed render fr.json --theme jsonresume-theme-jdambron-fr --output index.html",
+    "update-theme": "rm -rf node_modules package-lock.json; npm cache clean --force; npm install"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "jsonresume-theme-jdambron-fr": "git+https://github.com/jdambron/jsonresume-theme-jdambron-fr",
     "jsonresume-theme-frankwap-fr": "git+https://github.com/FrankwaP/jsonresume-theme-frankwap-fr.git",
     "resumed": "6.1.0"
   },

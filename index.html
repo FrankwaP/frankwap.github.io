@@ -207,7 +207,7 @@ strong {
 /* every section wrapper */
 
 .section {
-  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 section .location {
@@ -294,6 +294,10 @@ section .location {
 
 .section > header {
   position: relative;
+}
+
+.work-item {
+  margin-bottom: 1em;
 }
 
 .fa {
@@ -826,47 +830,40 @@ code,
     			<h2 class="label">Ingénieur et Data Scientist</h2>
     		</div>
     
-    		<span class="location">
-    			<span class="postalCode">33000</span>
-    			<span class="city">Bordeaux</span>
-    		</span>
+    			<span class="location">Bordeaux, FR</span>
     
-    <div>Né le 9 juillet 1981 à Amiens</div>
+    
     		<div id="contact">
     			<div class="email">
     				<span class="far fa-envelope"></span>
     				<a class="hide-href-print" href="mailto:francois.plessier@gmail.com">francois.plessier@gmail.com</a>
     			</div>
-    			<div class="phone">
-    				<span class="fas fa-mobile-alt"></span>
-    				<a class="hide-href-print" href="tel:06.17.53.01.56">06.17.53.01.56</a>
-    			</div>
+    					<div class="item">
+    						<div class="username">
+    							<span class="fab fa-linkedin linkedin social"></span>
+    							<span class="url">
+    								<a target="_blank" href="www.linkedin.com/in/francois-plessier">www.linkedin.com/in/francois-plessier</a>
+    							</span>
+    						</div>
+    					</div>
+    					<div class="item">
+    						<div class="username">
+    							<span class="fab fa-github github social"></span>
+    							<span class="url">
+    								<a target="_blank" href="www.github.com/FrankwaP">www.github.com/FrankwaP</a>
+    							</span>
+    						</div>
+    					</div>
     		</div>
     
-    		<div id="profiles">
-    			<div class="item">
-    				<div class="username">
-    					<span class="fab fa-linkedin linkedin social"></span>
-    					<span class="url">
-    						<a target="_blank" href="https://www.linkedin.com/in/francois-plessier">François Plessier</a>
-    					</span>
-    				</div>
-    			</div>
-    			<div class="item">
-    				<div class="username">
-    					<span class="fab fa-github github social"></span>
-    					<span class="url">
-    						<a target="_blank" href="https://github.com/FrankwaP">FrankwaP</a>
-    					</span>
-    				</div>
-    			</div>
-    		</div>
+    		
     	</header>
     
     	<section class="section">
-    		<section class="main-summary">
-    			<div><p><p>Ingénieur-docteur en mécanique devenu data scientist, mon profil interdisciplinaire relie la compréhension des problématiques industrielles, la rigueur du développement informatique et la conception de systèmes fondés sur l’intelligence artificielle. Je recherche des environnements favorisant la collaboration et les échanges techniques.</p></p></div>
-    		</section>
+    		  <header>
+        		<h2 class='section-title'>Résumé</h2>
+      		</header>
+    			<div>Ingénieur-docteur en mécanique devenu data scientist, mon profil interdisciplinaire relie la compréhension des problématiques industrielles, la rigueur du développement informatique et la conception de systèmes fondés sur l’intelligence artificielle. Je recherche des environnements favorisant la collaboration et les échanges techniques.</div>
     	</section>
     
     <section class="section">
@@ -879,13 +876,17 @@ code,
     				Python
     			</h3>
     			 			<ul class="keywords">
+    				<li>numpy</li>
     				<li>pandas</li>
     				<li>scikit-learn</li>
     				<li>PyTorch</li>
+    				<li>Torchvision</li>
+    				<li>Optuna</li>
     				<li>OpenCV</li>
     				<li>Pillow</li>
     				<li>scikit-image</li>
-    				<li>Beautiful Soup</li>
+    				<li>mypy</li>
+    				<li>pytest</li>
     			</ul>
     		</div>
     		<div class="item">
@@ -897,21 +898,22 @@ code,
     				<li>reticulate</li>
     				<li>Quarto</li>
     				<li>RMarkdown</li>
+    				<li>usethis</li>
+    				<li>testthat</li>
+    				<li></li>
     			</ul>
     		</div>
     		<div class="item">
     			<h3 class="name">
-    				Développement (CI/CD)
+    				CI/CD
     			</h3>
     			 			<ul class="keywords">
     				<li>Git</li>
     				<li>DVC</li>
     				<li>pre-commit</li>
-    				<li>GitHub Actions</li>
-    				<li>pytest</li>
-    				<li>testthat</li>
-    				<li>Makefile</li>
     				<li>Docker</li>
+    				<li>GitHub Actions</li>
+    				<li>Makefile</li>
     			</ul>
     		</div>
     		<div class="item">
@@ -921,12 +923,12 @@ code,
     			 			<ul class="keywords">
     				<li>SQL</li>
     				<li>Excel/VBA</li>
-    				<li>Linux (bash, serveur)</li>
+    				<li>Linux (bash, ssh)</li>
     			</ul>
     		</div>
     		<div class="item">
     			<h3 class="name">
-    				Compétences complémentaires
+    				Complémentaires
     			</h3>
     			 			<ul class="keywords">
     				<li>rédaction scientifique</li>
@@ -959,7 +961,7 @@ code,
             <ul class="highlights">
               <li><p><p>Développement en intégration continue d'un <a href="https://GitHub.com/FrankwaP/mixedML">paquet R</a> interfaçant <code>R</code> et <code>Python</code> (<code>reticulate</code>).</p></p></li>
               <li><p><p>Implémentation de modèles à réseau de neurones récurrents pour le traitement des données longitudinales.</p></p></li>
-              <li><p><p>Contribution à la librairie <a href="https://GitHub.com/reservoirpy/reservoirpy"><code>reservoirpy</code></a>.</p></p></li>
+              <li><p><p>Contribution open source à la librairie <a href="https://GitHub.com/reservoirpy/reservoirpy"><code>reservoirpy</code></a>.</p></p></li>
               <li><p><p>Data management d'un jeu de données de santé publique.</p></p></li>
             </ul>
           </div>
@@ -982,7 +984,7 @@ code,
               <li><p><p>Conception et développement d'un outil d'analyse d'enrobés bitumés : collecte des données et prototypage, mise en place du pipeline ML (<code>scikit-learn</code>).</p></p></li>
               <li><p><p>Développement de modèles de détection et segmentation d'objets pour l'inspection d'infrastructures industrielles (canalisations, stations offshore) (<code>PyTorch</code>).</p></p></li>
               <li><p><p>Mise en place de systèmes de contrôle d'accès (détection d'équipements de protection) : déploiement sur systèmes embarqués (edge computing), et administration à distance (<code>Docker</code>, <code>Linux</code>, <code>Nvidia Jetson</code>).</p></p></li>
-              <li><p><p>Veille technique sur les méthodes d'entraînement avec une quantité limitée de données (GAN, semi-supervision, weak supervision, data augmentation).</p></p></li>
+              <li><p><p>Veille technologique : revue bibliographique et tests de librairies.</p></p></li>
               <li><p><p>Développement collaboratif en CI/CD, revues de code et gestion de tickets.</p></p></li>
               <li><p><p>Réunions clients : analyse et clarification des besoins métier.</p></p></li>
               <li><p><p>Encadrement de stagiaires.</p></p></li>
@@ -1094,7 +1096,7 @@ code,
             </div>
             <div class="header-left">
               <div class="area">
-                Formation de Data Analyst / Data Scientist
+                Formation professionnelle de Data Analyst / Data Scientist
               </div>
               <div class="institution">
                 Data University Bordeaux
@@ -1199,11 +1201,21 @@ code,
       <section id="languages">
         <div class="display">
           <h3 class="language">
+            Français
+          </h3>
+          <div class="item">
+    <div class="level fluencyC2">
+                  <em>C2: Langue maternelle</em>
+                  <div class="bar"></div>
+                </div>      </div>
+        </div>
+        <div class="display">
+          <h3 class="language">
             Anglais
           </h3>
           <div class="item">
     <div class="level fluencyC1">
-                  <em>C1: Avancé</em>
+                  <em>C1: Expérimenté</em>
                   <div class="bar"></div>
                 </div>      </div>
         </div>
@@ -1212,8 +1224,8 @@ code,
             Espagnol
           </h3>
           <div class="item">
-    <div class="level fluencyA1">
-                  <em>A1: Débutant</em>
+    <div class="level fluencyA2">
+                  <em>A2: Élémentaire</em>
                   <div class="bar"></div>
                 </div>      </div>
         </div>
@@ -1226,16 +1238,28 @@ code,
       <br>
       <section id="interests">
         <div class="item">
-          <img class="image" src="images/rings.svg" title="Musculation au poids de corps" height="60" />
+          <img class="image" src="images/Callisthénie.svg" title="Callisthénie" height="60" />
+          <h3 class="name">
+            Callisthénie
+          </h3>
         </div>
         <div class="item">
-          <img class="image" src="images/mixxx.svg" title="DJing" height="60" />
+          <img class="image" src="images/DJing.svg" title="DJing" height="60" />
+          <h3 class="name">
+            DJing
+          </h3>
         </div>
         <div class="item">
-          <img class="image" src="images/coding.svg" title="Geekeries" height="60" />
+          <img class="image" src="images/Programmation.svg" title="Programmation" height="60" />
+          <h3 class="name">
+            Programmation
+          </h3>
         </div>
         <div class="item">
-          <img class="image" src="images/gardening.svg" title="Jardinage" height="60" />
+          <img class="image" src="images/Jardinage.svg" title="Jardinage" height="60" />
+          <h3 class="name">
+            Jardinage
+          </h3>
         </div>
       </section>
     </section>
