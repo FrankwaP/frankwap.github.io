@@ -53,6 +53,7 @@
                 "Conception et développement d'un outil d'analyse d'enrobés bitumés : collecte des données et prototypage, mise en place du pipeline ML (`scikit-learn`).",
                 "Développement de modèles de détection et segmentation d'objets pour l'inspection d'infrastructures industrielles (canalisations, stations offshore) (`PyTorch`).",
                 "Mise en place de systèmes de contrôle d'accès (détection d'équipements de protection) : déploiement sur systèmes embarqués (edge computing), et administration à distance (`Docker`, `Linux`, `Nvidia Jetson`).",
+                "Optimisation des modèles avec suivi des performances (`optuna`).",
                 "Veille technologique : revue bibliographique et tests de librairies.",
                 "Développement collaboratif en CI/CD, revues de code et gestion de tickets.",
                 "Réunions clients : analyse et clarification des besoins métier.",
@@ -65,7 +66,7 @@
             "url": "",
             "startDate": "2020-01",
             "endDate": "2020-04",
-            "summary": "Cours appliqués de développement en `Python`, web scraping, data processing et machine learning (28 heures).",
+            "summary": "Cours appliqués de développement (`Python`, `R`), web scraping (`Beautiful Soup`), data processing et machine learning (28 heures).",
             "highlights": [
 
             ]
@@ -90,14 +91,14 @@
             "endDate": "2019-05",
             "summary": "Études de validation mécanique (statique, thermique et dynamique) pour l'industrie aérospatiale et la défense.",
             "highlights": [
-                "Simulations par éléments finis (maillage, calcul et post-traitement).",
+                "Simulations par éléments finis: maillage, calcul et post-traitement.",
                 "Développement d’outils `Python` et `VBA` pour l’automatisation et l’analyse de données.",
                 "Réunions clients : lancement et suivi de projet."
             ]
         },
         {
             "name": "Université de Bordeaux 1",
-            "position": "Doctorant en Sciences Physiques pour l'Ingénieur",
+            "position": "Doctorat de Sciences Physiques pour l'Ingénieur",
             "url": "",
             "startDate": "2005-09",
             "endDate": "2010-09",
@@ -111,7 +112,7 @@
         },
         {
             "name": "Université de Bordeaux 1 et ENSAM Bordeaux",
-            "position": "Enseignant en Sciences de l'Ingénieur.",
+            "position": "Enseignant en Sciences de l'Ingénieur",
             "url": "",
             "startDate": "2005-09",
             "endDate": "2009-06",
@@ -190,17 +191,19 @@
             "name": "Python",
             "level": "",
             "keywords": [
-		"numpy",
+                "numpy",
                 "pandas",
                 "scikit-learn",
                 "PyTorch",
-		"Torchvision",
-		"Optuna",
+                "mlflow",
+                "Hyperopt",
+                "Optuna"
+            ],
+            "_comment_keywords": [
                 "OpenCV",
                 "Pillow",
                 "scikit-image",
-		"mypy",
-		"pytest"
+                "albumentation"
             ]
         },
         {
@@ -211,15 +214,15 @@
                 "reticulate",
                 "Quarto",
                 "RMarkdown",
-		"usethis",
-		"testthat",
-		""
+                "usethis",
+                "testthat"
             ]
         },
         {
             "name": "CI/CD",
             "level": "",
             "keywords": [
+                "Test Driven Developpement (TDD)",
                 "Git",
                 "DVC",
                 "pre-commit",
@@ -234,15 +237,17 @@
             "keywords": [
                 "SQL",
                 "Excel/VBA",
-                "Linux (bash, ssh)"
+                "Linux (bash, ssh)",
+                "regex"
             ]
         },
         {
             "name": "Complémentaires",
             "level": "",
             "keywords": [
+                "veille technologique",
                 "rédaction scientifique",
-                "présentations",
+                "présentation technique",
                 "enseignement"
             ]
         }
