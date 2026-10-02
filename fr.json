@@ -18,12 +18,12 @@
             {
                 "network": "LinkedIn",
                 "username": "François Plessier",
-                "url": "www.linkedin.com/in/francois-plessier"
+                "url": "https://www.linkedin.com/in/francois-plessier"
             },
             {
                 "network": "GitHub",
                 "username": "FrankwaP",
-                "url": "www.github.com/FrankwaP"
+                "url": "https://www.github.com/FrankwaP"
             }
         ]
     },
@@ -191,11 +191,11 @@
             "name": "Python",
             "level": "",
             "keywords": [
-                "numpy",
+                "NumPy",
                 "pandas",
                 "scikit-learn",
                 "PyTorch",
-                "mlflow",
+                "MLflow",
                 "Hyperopt",
                 "Optuna"
             ],
@@ -222,7 +222,7 @@
             "name": "CI/CD",
             "level": "",
             "keywords": [
-                "Test Driven Developpement (TDD)",
+                "Test Driven Development (TDD)",
                 "Git",
                 "DVC",
                 "pre-commit",
@@ -238,7 +238,7 @@
                 "SQL",
                 "Excel/VBA",
                 "Linux (bash, ssh)",
-                "regex"
+                "RegEx"
             ]
         },
         {
